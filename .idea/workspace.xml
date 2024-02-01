@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7575a03b-ef17-47bb-9aa3-cb9914c46bce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/storybook-app/documentation.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/storybook-app/documentation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/storybook-app/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/storybook-app/project.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/angular/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/angular/project.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/angular/src/lib/components/banner/banner.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/libs/angular/src/lib/components/banner/banner.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/cli/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/cli/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/cli/project.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/icons/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/icons/project.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/storybook-helpers/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/storybook-helpers/project.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/storybook-helpers/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/storybook-helpers/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/storybook-helpers/src/lib/layouts/layout-do-dont/layout-do-dont.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/storybook-helpers/src/lib/layouts/layout-do-dont/layout-do-dont.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/styles/src/lib/sass/generic/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/libs/styles/src/lib/sass/generic/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass-map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass-map.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="7575a03b-ef17-47bb-9aa3-cb9914c46bce" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,27 +57,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Project.color": "5b1c1e",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "jsx.switch.disabled": "true",
-    "last_opened_file_path": "/Users/Ryan.Bendel/WebstormProjects/rtds-public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/node_modules/stylelint",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/node_modules/prettier",
-    "settings.editor.selected.configurable": "preferences.sourceCode.TypeScript",
-    "ts.external.directory.path": "/Users/Ryan.Bendel/WebstormProjects/rtds-public/node_modules/typescript/lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Project.color&quot;: &quot;5b1c1e&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jsx.switch.disabled&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Ryan.Bendel/WebstormProjects/rtds-public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/node_modules/stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.TypeScript&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/Ryan.Bendel/WebstormProjects/rtds-public/node_modules/typescript/lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/libs/angular/src/lib/components/banner" />
@@ -183,6 +166,7 @@
       <workItem from="1706535178171" duration="1262000" />
       <workItem from="1706631073768" duration="2916000" />
       <workItem from="1706816897195" duration="1810000" />
+      <workItem from="1706820182555" duration="131000" />
     </task>
     <task id="LOCAL-00001" summary="tt - update to use sass modules">
       <created>1664456216600</created>

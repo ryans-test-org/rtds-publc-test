@@ -46,7 +46,7 @@ test_and_lint() {
     exit 1
   fi
 
-  npx nx affected:lint --base=origin/master --head=HEAD
+  npx nx affected:lint --base=origin/main --head=HEAD
   error=$?
 
   if [ $error -ne 0 ]; then
@@ -54,7 +54,7 @@ test_and_lint() {
     exit 1
   fi
 
-  npx nx affected:test --base=origin/master --head=HEAD
+  npx nx affected:test --base=origin/main --head=HEAD
   error=$?
 
   if [ $error -ne 0 ]; then
