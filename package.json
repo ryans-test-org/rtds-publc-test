@@ -13,6 +13,7 @@
   "scripts": {
     "affected:lint": "nx affected:lint",
     "affected:test": "nx affected:test",
+    "chromatic": "chromatic --exit-zero-on-changes",
     "clean:cache": "rm -rf .nx && rm -rf .angular && rm -rf node_modules/.cache",
     "cypress:local:angular": "nx component-test angular --watch",
     "build-storybook": "nx run storybook-app:build-storybook --skip-nx-cache",
@@ -31,8 +32,7 @@
     "test:all": "nx run-many --all --target=test --skip-nx-cache",
     "version:major": "nx run workspace:version --releaseAs=major",
     "version:minor": "nx run workspace:version --releaseAs=minor",
-    "version:patch": "nx run workspace:version --releaseAs=patch",
-    "chromatic": "npx chromatic --project-token=chpt_a8754ccaac828f8"
+    "version:patch": "nx run workspace:version --releaseAs=patch"
   },
   "overrides": {
     "axios": "1.6.5"

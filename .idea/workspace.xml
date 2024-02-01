@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7575a03b-ef17-47bb-9aa3-cb9914c46bce" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/storybook-app/documentation.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/storybook-app/documentation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/storybook-app/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/storybook-app/project.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/angular/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/angular/project.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/angular/src/lib/components/banner/banner.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/libs/angular/src/lib/components/banner/banner.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/cli/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/cli/project.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/icons/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/icons/project.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/storybook-helpers/project.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/storybook-helpers/project.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/storybook-helpers/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/storybook-helpers/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/storybook-helpers/src/lib/layouts/layout-do-dont/layout-do-dont.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/storybook-helpers/src/lib/layouts/layout-do-dont/layout-do-dont.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/styles/src/lib/sass/generic/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/libs/styles/src/lib/sass/generic/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass-map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass-map.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3d74b140a691a0830ed3c147df8641b1b3ed5c87" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/apps/storybook-app-e2e/cypress.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/apps/storybook-app/project.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/commitlint.config.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/libs/components/tsconfig.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/nx.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2FPe4yAT4nKwutM16GXaMYMlNpP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Project.color": "5b1c1e",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "jsx.switch.disabled": "true",
+    "last_opened_file_path": "/Users/Ryan.Bendel/WebstormProjects/rtds-public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/node_modules/stylelint",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.sourceCode.TypeScript",
+    "ts.external.directory.path": "/Users/Ryan.Bendel/WebstormProjects/rtds-public/node_modules/typescript/lib"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs/angular/src/lib/components/banner" />
+      <recent name="$PROJECT_DIR$/libs/angular" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/libs/angular/src/lib/components/panel/components/group" />
+      <recent name="$PROJECT_DIR$/libs/angular/src/lib/components/panel/components/supplementary" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs/angular/src/lib/components/panel/components/footer" />
+      <recent name="$PROJECT_DIR$/.github" />
+      <recent name="$PROJECT_DIR$/apps/storybook-app" />
+      <recent name="$PROJECT_DIR$/apps/storybook-app/cypress" />
+      <recent name="$PROJECT_DIR$/libs/styles" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7575a03b-ef17-47bb-9aa3-cb9914c46bce" name="Changes" comment="" />
+      <created>1664397958730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664397958730</updated>
+      <workItem from="1664397960208" duration="1922000" />
+      <workItem from="1666206604648" duration="22372000" />
+      <workItem from="1667982922676" duration="56277000" />
+      <workItem from="1669980723776" duration="598000" />
+      <workItem from="1670872296593" duration="8000" />
+      <workItem from="1679383392700" duration="10338000" />
+      <workItem from="1683295075001" duration="619000" />
+      <workItem from="1684865381672" duration="13972000" />
+      <workItem from="1685017294772" duration="2483000" />
+      <workItem from="1686326487910" duration="4449000" />
+      <workItem from="1686579001811" duration="1214000" />
+      <workItem from="1686591834309" duration="38692000" />
+      <workItem from="1686811047836" duration="41911000" />
+      <workItem from="1687161206137" duration="10656000" />
+      <workItem from="1687257701025" duration="597000" />
+      <workItem from="1687258456461" duration="55161000" />
+      <workItem from="1688140588886" duration="49000" />
+      <workItem from="1688140648554" duration="597000" />
+      <workItem from="1688309815680" duration="1795000" />
+      <workItem from="1688718097320" duration="598000" />
+      <workItem from="1688719251215" duration="1648000" />
+      <workItem from="1689255700590" duration="596000" />
+      <workItem from="1689684438458" duration="32232000" />
+      <workItem from="1690384528144" duration="27958000" />
+      <workItem from="1690534868358" duration="23916000" />
+      <workItem from="1690807180703" duration="21168000" />
+      <workItem from="1693559776907" duration="1841000" />
+      <workItem from="1694427977307" duration="564000" />
+      <workItem from="1696448693231" duration="42000" />
+      <workItem from="1696448745677" duration="64000" />
+      <workItem from="1696448819287" duration="1020000" />
+      <workItem from="1696450252883" duration="650000" />
+      <workItem from="1696451281612" duration="7602000" />
+      <workItem from="1696847142224" duration="50000" />
+      <workItem from="1696847196320" duration="668000" />
+      <workItem from="1697117660626" duration="35802000" />
+      <workItem from="1697191552715" duration="12504000" />
+      <workItem from="1697445901675" duration="179000" />
+      <workItem from="1697446089037" duration="329000" />
+      <workItem from="1697446436248" duration="1526000" />
+      <workItem from="1697449429635" duration="7926000" />
+      <workItem from="1697477823171" duration="21999000" />
+      <workItem from="1697550785265" duration="22942000" />
+      <workItem from="1697798573760" duration="16520000" />
+      <workItem from="1698070630722" duration="267000" />
+      <workItem from="1698070903271" duration="19000" />
+      <workItem from="1698070929711" duration="121000" />
+      <workItem from="1698071055627" duration="681000" />
+      <workItem from="1698071749977" duration="55000" />
+      <workItem from="1698071813778" duration="612000" />
+      <workItem from="1698085010689" duration="376000" />
+      <workItem from="1698086268726" duration="57000" />
+      <workItem from="1698086338084" duration="332000" />
+      <workItem from="1698091695635" duration="28387000" />
+      <workItem from="1698417222296" duration="115000" />
+      <workItem from="1698417355270" duration="39000" />
+      <workItem from="1698417410149" duration="3688000" />
+      <workItem from="1705319833971" duration="15893000" />
+      <workItem from="1706029488248" duration="597000" />
+      <workItem from="1706185646699" duration="596000" />
+      <workItem from="1706199180376" duration="1191000" />
+      <workItem from="1706535178171" duration="1262000" />
+      <workItem from="1706631073768" duration="2916000" />
+      <workItem from="1706816897195" duration="1810000" />
+    </task>
+    <task id="LOCAL-00001" summary="tt - update to use sass modules">
+      <created>1664456216600</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664456216600</updated>
+    </task>
+    <task id="LOCAL-00002" summary="tt - fix imports">
+      <created>1664457242681</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664457242681</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tt - Delete husky commit hooks for now">
+      <created>1667321166454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667321166454</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat - Add icon component and way of generating a map of icons from svgs. Rename ui-components to components">
+      <created>1667984116839</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667984116839</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat - Remove generate-icons from postinstall until we can work out where we want to do this">
+      <created>1667984640085</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667984640085</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat - Fix icon generator">
+      <created>1667985797914</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667985797914</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat - Fix icon generator, add decorate-angular-cli.js script">
+      <created>1668674671512</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668674671512</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat - Fix Docker, copies file to app directory">
+      <created>1668675110446</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668675110446</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat - Fix Docker, copies file to app directory">
+      <created>1668675491299</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668675491299</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat - Add the start of the rtds-container component/pattern">
+      <created>1669640081843</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669640081843</updated>
+    </task>
+    <task id="LOCAL-00011" summary="tt - run nx migrate">
+      <created>1679384368374</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679384368374</updated>
+    </task>
+    <task id="LOCAL-00012" summary="tt - install with legacy peer deps">
+      <created>1679385327397</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679385327398</updated>
+    </task>
+    <task id="LOCAL-00013" summary="tt - install with legacy peer deps">
+      <created>1679386756913</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679386756913</updated>
+    </task>
+    <task id="LOCAL-00014" summary="tt - install with optional deps">
+      <created>1679387095919</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1679387095919</updated>
+    </task>
+    <task id="LOCAL-00015" summary="tt - Create snyk ignore">
+      <created>1679388018249</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679388018249</updated>
+    </task>
+    <task id="LOCAL-00016" summary="tt - Add shippr.yaml to point to snyk-ignore">
+      <created>1679390065401</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679390065401</updated>
+    </task>
+    <task id="LOCAL-00017" summary="tt - Audit sub project">
+      <created>1679392080936</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679392080936</updated>
+    </task>
+    <task id="LOCAL-00018" summary="tt - Upgrade retailer-tools-storybook-server">
+      <created>1679392747992</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679392747992</updated>
+    </task>
+    <task id="LOCAL-00019" summary="tt - shippr upgrade-schema">
+      <created>1679404952937</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679404952937</updated>
+    </task>
+    <task id="LOCAL-00020" summary="tt - start to upgrade packages">
+      <created>1684919498432</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684919498432</updated>
+    </task>
+    <task id="LOCAL-00021" summary="tt - start to upgrade packages - add package-lock.json">
+      <created>1684919700887</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1684919700887</updated>
+    </task>
+    <task id="LOCAL-00022" summary="tt - start to upgrade packages - rollback 1 package update">
+      <created>1684920389003</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1684920389003</updated>
+    </task>
+    <task id="LOCAL-00023" summary="tt - Upgrade to Storybook 7. Start to flesh out design tokens and the build process for it">
+      <created>1686739654848</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1686739654849</updated>
+    </task>
+    <task id="LOCAL-00024" summary="tt - Upgrade to Storybook 7. Start to flesh out design tokens and the build process for it">
+      <created>1686739777646</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1686739777646</updated>
+    </task>
+    <task id="LOCAL-00025" summary="tt: update build target">
+      <created>1686740582914</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1686740582914</updated>
+    </task>
+    <task id="LOCAL-00026" summary="tt: refactor tokens lib to use style-dictionary. configure to output typescript, js and sass">
+      <created>1686899298508</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1686899298508</updated>
+    </task>
+    <task id="LOCAL-00027" summary="tt: add stylelint exclusion rule for variables">
+      <created>1686918477967</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1686918477967</updated>
+    </task>
+    <task id="LOCAL-00028" summary="tt: add stylelint exclusion rule for variables">
+      <created>1686918527995</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1686918527995</updated>
+    </task>
+    <task id="LOCAL-00029" summary="tt: fixbuild">
+      <created>1686932969543</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1686932969543</updated>
+    </task>
+    <task id="LOCAL-00030" summary="tt: update packages/fix snyk.&#10;tt: rename components package to Angular&#10;feat: new tokens lib, uses style-dictionary">
+      <created>1688034075994</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1688034075994</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Update npmrc">
+      <created>1688038067705</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1688038067705</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Update npmrc">
+      <created>1688045534045</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1688045534045</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Update dockerfile">
+      <created>1688046332905</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1688046332905</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Icon component">
+      <created>1690480641685</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1690480641685</updated>
+    </task>
+    <task id="LOCAL-00138" summary="tt: Remove unused @swc and rxjs packages">
+      <option name="closed" value="true" />
+      <created>1698416817275</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1698416817275</updated>
+    </task>
+    <task id="LOCAL-00139" summary="tt: updgrade mdx-js/react and prettier">
+      <option name="closed" value="true" />
+      <created>1698416956826</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1698416956826</updated>
+    </task>
+    <task id="LOCAL-00140" summary="tt: force continute to test build">
+      <option name="closed" value="true" />
+      <created>1705270982878</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1705270982878</updated>
+    </task>
+    <task id="LOCAL-00141" summary="tt: temp disable scanning">
+      <option name="closed" value="true" />
+      <created>1705271662882</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1705271662882</updated>
+    </task>
+    <task id="LOCAL-00142" summary="tt: temp disable scanning">
+      <option name="closed" value="true" />
+      <created>1705271691954</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1705271691954</updated>
+    </task>
+    <task id="LOCAL-00143" summary="tt: temp disable scanning">
+      <option name="closed" value="true" />
+      <created>1705271887023</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1705271887023</updated>
+    </task>
+    <task id="LOCAL-00144" summary="tt: remove node test">
+      <option name="closed" value="true" />
+      <created>1705308249442</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1705308249442</updated>
+    </task>
+    <task id="LOCAL-00145" summary="tt: re-enable dep scanning, update config to not use snyk">
+      <option name="closed" value="true" />
+      <created>1705311089717</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1705311089717</updated>
+    </task>
+    <task id="LOCAL-00146" summary="tt: Add banner component (html/scss to be refactored later) for tokens workshop. Refactor some modules and style up icon component">
+      <option name="closed" value="true" />
+      <created>1705323224084</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1705323224084</updated>
+    </task>
+    <task id="LOCAL-00147" summary="tt: Disable stylelint in banner for workshop">
+      <option name="closed" value="true" />
+      <created>1705323690341</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1705323690341</updated>
+    </task>
+    <task id="LOCAL-00148" summary="tt: Update banner icon styles">
+      <option name="closed" value="true" />
+      <created>1705324715945</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1705324715945</updated>
+    </task>
+    <task id="LOCAL-00149" summary="tt: Update banner icon styles, add ng-deep">
+      <option name="closed" value="true" />
+      <created>1705330487386</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1705330487386</updated>
+    </task>
+    <task id="LOCAL-00150" summary="tt: Update banner stories, default all icons to grey">
+      <option name="closed" value="true" />
+      <created>1705336230916</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1705336230916</updated>
+    </task>
+    <task id="LOCAL-00151" summary="tt: Update banner styling with temp line-heights">
+      <option name="closed" value="true" />
+      <created>1705508742742</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1705508742742</updated>
+    </task>
+    <task id="LOCAL-00152" summary="tt: Update banner styling with temp line-heights">
+      <option name="closed" value="true" />
+      <created>1705511224483</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1705511224483</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="package.json" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="54ecc91f-b058-4060-856f-a5f87db6f7aa" value="TOOL_WINDOW" />
+        <entry key="7b31e373-61da-4b31-99d0-3a96a21300ff" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="54ecc91f-b058-4060-856f-a5f87db6f7aa">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/cypress" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="7b31e373-61da-4b31-99d0-3a96a21300ff">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="tt: Fix zone.js" />
+    <MESSAGE value="tt: Upgrade and fix zone.js" />
+    <MESSAGE value="tt: Docker improvements" />
+    <MESSAGE value="tt: Cypress - add type back into component.ts" />
+    <MESSAGE value="tt: Revert docker changes" />
+    <MESSAGE value="tt: Revert package upgrades till I figure out what's going on with webpack5. Re-apply docker improvements" />
+    <MESSAGE value="tt: Run nx-migrate latest" />
+    <MESSAGE value="tt: Upgrade typescript and zone js, add temp snyk ignore" />
+    <MESSAGE value="tt: Upgrade angular/angular-devkit" />
+    <MESSAGE value="tt: More upgrade angular/angular-devkit" />
+    <MESSAGE value="tt: Upgrade @cypress/webpack-dev-server" />
+    <MESSAGE value="tt: Upgrade semver &amp; schematics" />
+    <MESSAGE value="tt: Upgrade @types" />
+    <MESSAGE value="tt: Remove unused @swc and rxjs packages" />
+    <MESSAGE value="tt: updgrade mdx-js/react and prettier" />
+    <MESSAGE value="tt: force continute to test build" />
+    <MESSAGE value="tt: temp disable scanning" />
+    <MESSAGE value="tt: remove node test" />
+    <MESSAGE value="tt: re-enable dep scanning, update config to not use snyk" />
+    <MESSAGE value="tt: Add banner component (html/scss to be refactored later) for tokens workshop. Refactor some modules and style up icon component" />
+    <MESSAGE value="tt: Disable stylelint in banner for workshop" />
+    <MESSAGE value="tt: Update banner icon styles" />
+    <MESSAGE value="tt: Update banner icon styles, add ng-deep" />
+    <MESSAGE value="tt: Update banner stories, default all icons to grey" />
+    <MESSAGE value="tt: Update banner styling with temp line-heights" />
+    <option name="LAST_COMMIT_MESSAGE" value="tt: Update banner styling with temp line-heights" />
+  </component>
+</project>
