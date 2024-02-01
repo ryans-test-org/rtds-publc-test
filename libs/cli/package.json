@@ -17,9 +17,6 @@
     "build": "npm run copy && tsc --project tsconfig.json",
     "build:watch": "npm run copy && tsc --watch --project tsconfig.lib.json"
   },
-  "publishConfig": {
-    "registry": "https://autotrader.jfrog.io/autotrader/api/npm/npm-internal/"
-  },
   "keywords": [
     "rtds",
     "rtds-cli"

@@ -3,9 +3,6 @@
     "stylelint-config-standard-scss",
     "stylelint-config-clean-order"
   ],
-  "plugins": [
-    "@retailer-tools/stylelint-custom-rules"
-  ],
   "ignoreFiles": [
     "**/tokens/*.scss",
     "**/*.html",
@@ -14,14 +11,6 @@
     "**/storybook-helpers/**/*"
   ],
   "rules": {
-    "@retailer-tools/enforce-grid-base-unit": [
-      true,
-      {
-        "unitVariable": "$grid-base-unit",
-        "unitValue": 8,
-        "unitThreshold": 64
-      }
-    ],
     "at-rule-empty-line-before": [
       "always",
       {
