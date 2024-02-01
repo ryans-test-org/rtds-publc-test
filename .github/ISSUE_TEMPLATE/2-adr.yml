@@ -1,0 +1,44 @@
+name: "📝 ADR"
+description: An architectural decision record for the Retail Tools design system.
+title: "[ADR] "
+labels: ADR
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Have a question, or if you need help using RTDS 👉 [Ask in Slack](https://autotrader.enterprise.slack.com/archives/C01E08Q9DKL).
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      description: What version of our software are you running?
+      options:
+        - Proposed
+        - Accepted
+        - Trial
+        - Rejected
+        - Deprecated
+        - Superseded
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What is the issue that we're seeing that is motivating this decision or change?
+      placeholder: ...
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision
+      description: What is the change that we're proposing and/or doing?
+      placeholder: We have decided that...
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences
+      description: What becomes easier or more difficult to do because of this change?
+      placeholder: If we implement this ADR...

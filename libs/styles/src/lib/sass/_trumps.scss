@@ -1,0 +1,12 @@
+@use 'tools/typography' as *;
+@use './settings/typography';
+
+@each $typography-group in typography.$typography-groups {
+  .#{$typography-group} {
+    @include typography-group($typography-group);
+
+    &--mono {
+      @include typography-group($typography-group, $is-mono: true);
+    }
+  }
+}

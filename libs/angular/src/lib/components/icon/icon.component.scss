@@ -1,0 +1,24 @@
+:host {
+  display: inline-flex;
+}
+
+.rtds-icon {
+  &--info {
+    path {
+      fill: var(--rtds-color-blue-100);
+    }
+  }
+
+  &--warning {
+    path {
+      fill: var(--rtds-color-yellow-300);
+    }
+  }
+
+  &--error {
+    path {
+      fill: var(--rtds-color-red-300);
+    }
+  }
+
+}

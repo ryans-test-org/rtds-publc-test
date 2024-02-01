@@ -1,0 +1,14 @@
+# Add files here to ignore them from prettier formatting
+
+/dist
+/coverage
+/.angular/
+/.storybook/
+/.vscode/
+/.github/
+/libs/cli/
+_tokens.scss
+_tokens-dark.scss
+
+/.nx/cache
+.angular

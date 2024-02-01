@@ -1,0 +1,24 @@
+{
+  "name": "cli",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/cli/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    },
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/cli",
+        "tsConfig": "libs/cli/tsconfig.lib.json",
+        "packageJson": "libs/cli/package.json",
+        "main": "libs/cli/src/index.ts",
+        "assets": ["libs/cli/*.md"]
+      }
+    }
+  },
+  "tags": []
+}

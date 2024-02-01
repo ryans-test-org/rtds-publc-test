@@ -1,0 +1,37 @@
+{
+  "name": "@rtds/cli",
+  "version": "1.0.1-alpha.5",
+  "description": "CLI to setup and maintain RTDS design system",
+  "author": "Ryan Bendel",
+  "license": "ISC",
+  "bin": {
+    "rtds-cli": "./bin/src/lib/main.js"
+  },
+  "main": "./bin/src/lib/main.js",
+  "types": "./bin/src/lib/main.d.ts",
+  "type": "module",
+  "scripts": {
+    "copy": "cp -r ./src/lib/resources ./bin/src/lib/resources",
+    "export:version": "run-func ./bin/src/lib/helpers/export-versions.js exportVersions",
+    "prepublishOnly": "npm run export:version && npm run build-storybook",
+    "build": "npm run copy && tsc --project tsconfig.json",
+    "build:watch": "npm run copy && tsc --watch --project tsconfig.lib.json"
+  },
+  "publishConfig": {
+    "registry": "https://autotrader.jfrog.io/autotrader/api/npm/npm-internal/"
+  },
+  "keywords": [
+    "rtds",
+    "rtds-cli"
+  ],
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^11.0.0",
+    "inquirer": "8.2.4",
+    "listr2": "3.14.0",
+    "execa": "5.1.1",
+    "url": "0.11.3",
+    "tslib": "^2.5.2"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,9 @@
+---
+releases:
+  - name: retailer-tools-design-system
+    namespace: retailer-tools-design-system
+    chart: aws/platform-helm-at-service
+    version: 0.1.{{ requiredEnv "GO_DEPENDENCY_LABEL_PLATFORM" }}
+    values:
+      - environments/values.yaml
+      - environments/{{ requiredEnv "HELMFILE_ENV" }}/values.yaml

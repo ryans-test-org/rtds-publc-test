@@ -1,0 +1,12 @@
+{
+  "name": "@rtds/angular",
+  "version": "0.0.0",
+  "peerDependencies": {
+    "@angular/common": "16.2.7",
+    "@angular/core": "16.2.7",
+    "@angular/forms": "16.2.7",
+    "@angular/platform-browser": "16.2.7",
+    "@rtds/icons": "*"
+  },
+  "dependencies": {}
+}

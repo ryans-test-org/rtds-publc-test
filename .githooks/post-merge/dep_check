@@ -1,0 +1,31 @@
+#!/bin/sh
+
+#
+# Check to see if node_modules need to be updated and warn the user.
+#
+
+
+changed_files="$(git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD)"
+BASELOG="\033[96m[\033[34mRetailer\033[96m-\033[34mTools\033[0m\033[96m]\033[0m "
+ENDLOG="\033[0m\n"
+
+output () {
+  printf "${BASELOG}$1${ENDLOG}"
+}
+
+check_run() {
+	echo "$changed_files" | grep --quiet "$1" && eval "$2"
+}
+
+printf "$(cat tools/ascii)"
+
+output "\033[96m====================================================="
+output "      Useful Links        "
+output "\033[96m====================================================="
+output "Portal Front End Channel:          \033[1mhttps://autotrader.enterprise.slack.com/archives/CA5K01DJA"
+output "Retail Tools Design System Channel:          \033[1mhttps://autotrader.enterprise.slack.com/archives/C01E08Q9DKL"
+output "RTDS Storybook:                         \033[1mhttps://app.retailer-tools-design-system.preprod.k8.atcloud.io/"
+
+check_run package.json "output '💾⚠️NPM INSTALL REQUIRED⚠️💾 - Node Modules are out of date with master.'"
+
+exit 0

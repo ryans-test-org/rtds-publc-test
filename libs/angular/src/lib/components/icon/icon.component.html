@@ -1,0 +1,14 @@
+@if (!!code) {
+  <svg
+
+    xmlns="http://www.w3.org/2000/svg"
+    [attr.width]="iconSize"
+    [attr.height]="iconSize"
+    [attr.viewBox]="scale"
+    [innerHtml]="innerHtml"
+    role="img"
+    [class]="iconClass"
+    pointer-events="none"
+    #svgElement
+  ></svg>
+}

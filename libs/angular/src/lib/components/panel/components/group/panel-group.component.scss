@@ -1,0 +1,46 @@
+@use 'libs/styles/src/lib/sass/core/index' as *;
+@use 'sass:map';
+:host ::ng-deep #{$prefix}-panel__group {
+  display: flex;
+
+  padding: $grid-base-unit * 2;
+
+  background-color: var(--rtds-color-panels-standard);
+  border-radius: var(--rtds-border-radius-default-radius);
+  box-shadow: var(--rtds-shadow-standard);
+
+  #{$prefix}-panel__container {
+    flex: 50%;
+
+    margin: 0;
+    padding-right: $grid-base-unit * 3;
+    padding-left: $grid-base-unit * 3;
+
+    border-right: 1px solid var(--rtds-color-grey-300);
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+      border: 0;
+    }
+  }
+
+  #{$prefix}-panel {
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+:host {
+  display: block;
+  margin-bottom: $grid-base-unit * 2;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

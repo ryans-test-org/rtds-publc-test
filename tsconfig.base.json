@@ -1,0 +1,38 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "skipDefaultLibCheck": true,
+    "strictPropertyInitialization": false,
+    "target": "ES2022",
+    "module": "ESNext",
+    "lib": ["ES2017", "dom"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types"],
+    "paths": {
+      "@rtds/angular": ["libs/angular/src/index.ts"],
+      "@rtds/cli": ["libs/cli/src/index.ts"],
+      "@rtds/icons": ["libs/icons/src/index.ts"],
+      "@rtds/storybook-helpers": ["libs/storybook-helpers/src/index.ts"],
+      "@rtds/styles": ["libs/styles/src/index.ts"],
+      "@rtds/tokens": ["libs/tokens/src/index.ts"]
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  },
+  "exclude": ["node_modules", "tmp"]
+}

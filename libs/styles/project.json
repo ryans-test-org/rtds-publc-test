@@ -1,0 +1,32 @@
+{
+  "name": "styles",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/styles/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/node:package",
+      "outputs": ["{options.outputPath}"],
+      "stylePreprocessorOptions": {
+        "includePaths": ["libs/tokens/dist/scss/"],
+        "extractCss": true
+      },
+      "options": {
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/tokens/dist/scss/"],
+          "extractCss": true
+        },
+        "outputPath": "dist/libs/styles",
+        "tsConfig": "libs/styles/tsconfig.lib.json",
+        "packageJson": "libs/styles/package.json",
+        "main": "libs/styles/src/index.ts",
+        "assets": ["libs/styles/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    }
+  },
+  "tags": []
+}

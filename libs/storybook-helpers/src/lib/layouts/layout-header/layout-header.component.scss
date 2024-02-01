@@ -1,0 +1,23 @@
+/* stylelint-disable color-no-hex */
+:host {
+  display: flex;
+  align-items: center;
+  background-color: #fbfafa;
+  padding: 50px 100px;
+  margin-bottom: 100px;
+  border-bottom: 1px solid #d1d0cf;
+}
+
+:host .rtds-layout-header__label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.275em;
+  letter-spacing: 1px;
+}
+
+:host .rtds-layout-header__text {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #313c53;
+}

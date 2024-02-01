@@ -1,0 +1,24 @@
+# Exclude all node modules from sub directories
+**/node_modules/
+dist/**
+/.angular/
+.DS_Store
+
+# IDEs and editors
+/.idea
+/.idea/*
+/.cache
+
+.angular
+/libs/cli/bin/
+/libs/tokens/dist
+
+#env files
+.env
+/gocd-test-artifacts/snyk/report.html
+/gocd-test-artifacts/snyk/report.json
+/cypressoutput/
+
+migrations.json
+
+.nx/cache

@@ -1,0 +1,18 @@
+@use '../tools/functions' as *;
+
+$prefix: '.rtds' !default;
+
+// Grid
+$grid-base-unit: 8px;
+
+// TODO - move to header/footer?
+// header and footer
+$headerheight: 56px;
+$sudoheight: 44px;
+$footerheight: 24px;
+
+// Common ui constants
+$default-radius: 4px;
+$transition-speed: 0.4s;
+
+$form-selected-colour: var(--rtds-color-link);

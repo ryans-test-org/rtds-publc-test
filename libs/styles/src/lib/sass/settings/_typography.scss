@@ -1,0 +1,14 @@
+@use 'base-globals' as *;
+@use 'sass:map';
+@use 'sass:math';
+@use '../tokens/tokens-sass-map' as tokensMap;
+
+@font-face {
+  font-family: ATVFabriga;
+  font-weight: 300 400 500 700;
+  font-style: normal;
+  font-display: optional;
+  src: local("ATVFabriga"),url('https://c.atcdn.co.uk/fonts/ATVFabriga.woff2') format('woff2');
+}
+
+$typography-groups: map.keys(map.get(tokensMap.$tokens, typography));

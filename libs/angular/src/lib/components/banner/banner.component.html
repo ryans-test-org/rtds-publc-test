@@ -1,0 +1,12 @@
+<section class="o-banner o-banner--{{variant.toLowerCase()}}" (click)="onClick()"
+         [ngClass]="{'is-global': isGlobal, 'is-local': isLocal, 'is-dismissable' : isDismissable, 'is-clickable': isClickable, 'is-header': isHeaderNotification}">
+  <div class="o-banner__wrapper">
+    <rtds-icon [type]="getIconName"></rtds-icon>
+    <h4 *ngIf="title" class="o-banner__title js-banner-title">
+      {{title}}
+    </h4>
+    <p class="o-banner__description js-banner-description">
+      <ng-content></ng-content>
+    </p>
+  </div>
+</section>

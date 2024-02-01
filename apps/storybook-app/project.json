@@ -1,0 +1,168 @@
+{
+  "name": "storybook-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/storybook-app/src",
+  "prefix": "rtds",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/storybook-app",
+        "index": "apps/storybook-app/src/index.html",
+        "main": "apps/storybook-app/src/main.ts",
+        "polyfills": "apps/storybook-app/src/polyfills.ts",
+        "tsConfig": "apps/storybook-app/tsconfig.app.json",
+        "assets": ["apps/storybook-app/src/favicon.ico", "apps/storybook-app/src/assets"],
+        "styles": ["apps/storybook-app/src/styles.scss", "libs/styles/src/lib/styles.scss"],
+        "optimization": true,
+        "outputHashing": "all",
+        "sourceMap": true,
+        "extractLicenses": true,
+        "aot": true,
+        "buildOptimizer": true,
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kb",
+              "maximumError": "4kb"
+            }
+          ],
+          "fileReplacements": [
+            {
+              "replace": "apps/storybook-app/src/environments/environment.ts",
+              "with": "apps/storybook-app/src/environments/environment.prod.ts"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "buildTarget": "storybook-app:build:production"
+        },
+        "development": {
+          "buildTarget": "storybook-app:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "buildTarget": "storybook-app:build"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "test": {
+      "executor": "@angular-devkit/build-angular:karma",
+      "outputs": ["{workspaceRoot}/coverage/apps/storybook-app"],
+      "options": {
+        "main": "apps/storybook-app/src/test.ts",
+        "tsConfig": "apps/storybook-app/tsconfig.spec.json",
+        "karmaConfig": "apps/storybook-app/karma.conf.js",
+        "polyfills": "apps/storybook-app/src/polyfills.ts"
+      }
+    },
+    "storybook-dev": {
+      "executor": "@storybook/angular:start-storybook",
+      "options": {
+        "port": 4400,
+        "styles": ["apps/storybook-app/src/styles.scss", "libs/styles/src/lib/styles.scss"],
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/styles/src/lib/"]
+        },
+        "configDir": "apps/storybook-app/.storybook",
+        "browserTarget": "storybook-app:build",
+        "compodoc": true,
+        "compodocArgs": ["-e", "json", "-d", "apps/storybook-app", "--disablePrivate", "--disableLifeCycleHooks"]
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "storybook-build": {
+      "executor": "@storybook/angular:build-storybook",
+      "outputs": ["{options.outputDir}"],
+      "options": {
+        "styles": ["apps/storybook-app/src/styles.scss", "libs/styles/src/lib/styles.scss"],
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/styles/src/lib/"]
+        },
+        "outputDir": "dist/storybook/storybook-app",
+        "configDir": "apps/storybook-app/.storybook",
+        "browserTarget": "storybook-app:build",
+        "compodoc": true,
+        "compodocArgs": ["-e", "json", "-d", "apps/storybook-app", "--disablePrivate", "--disableLifeCycleHooks"]
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "storybook": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["nx generate-icons icons", "nx build tokens", "nx run storybook-app:storybook-dev"],
+        "parallel": false
+      }
+    },
+    "build-storybook": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["nx generate-icons icons", "nx build tokens", "nx run storybook-app:storybook-build"],
+        "parallel": false
+      }
+    },
+    "static-storybook": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "storybook-app:build-storybook",
+        "staticFilePath": "dist/storybook/storybook-app"
+      },
+      "configurations": {
+        "ci": {
+          "buildTarget": "storybook-app:build-storybook:ci"
+        }
+      }
+    },
+    "component-test": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/storybook-app/cypress.config.ts",
+        "testingType": "component",
+        "skipServe": true,
+        "browser": "chromium",
+        "devServerTarget": "storybook-app:build"
+      }
+    }
+  },
+  "tags": []
+}

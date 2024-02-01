@@ -1,0 +1,32 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "schedule": ["after 10am and before 4pm every weekday"],
+  "extends": [
+    "config:recommended",
+    "mergeConfidence:all-badges"
+  ],
+  "packageRules": [
+    {
+      "updateTypes": ["patch"],
+      "enabled": false
+    },
+    {
+      "matchPackagePatterns": ["@nx"],
+      "groupName": "nx"
+    },
+    {
+      "matchPackagePatterns": ["@storybook"],
+      "groupName": "storybook"
+    },
+    {
+      "matchPackagePatterns": ["angular", "ngrx", "ng2", "ng-", "karma", "jasmine"],
+      "groupName": "angular"
+    },
+    {
+      "matchPackagePatterns": ["cypress"],
+      "groupName": "cypress",
+      "enabled": false
+    }
+  ],
+  "prConcurrentLimit": 2
+}

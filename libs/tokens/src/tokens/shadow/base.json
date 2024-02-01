@@ -1,0 +1,7 @@
+{
+  "shadow": {
+    "standard": { "value":  "0px 1px 3px 0px rgba(0, 0, 0, 0.15), 0px 0px 0px 0px rgba(0, 0, 0, 0.05)"},
+    "large": { "value":  "0px 1px 2px 0px rgba(0, 0, 0, 0.10), 0px 4px 4px 0px rgba(0, 0, 0, 0.20)"},
+    "inset": { "value":  "inset 0 0 0 1px var(--rtds-color-grey-500)"}
+  }
+}

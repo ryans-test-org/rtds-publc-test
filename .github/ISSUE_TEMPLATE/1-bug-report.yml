@@ -1,0 +1,59 @@
+name: "🐞 Bug report"
+description: Report a bug found while using Retail Tools design system.
+title: "[BUG] "
+labels: ["bug", "Needs Triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Have a question, or if you need help using RTDS 👉 [Ask in Slack](https://autotrader.enterprise.slack.com/archives/C01E08Q9DKL).
+        If the component doesn't do what you want, chances are it wasn't in the original use cases, if you have a "one off", raise it in the channel above so we can coordinate creating a formalised pattern.
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Current behavior
+      description: Please provide a description including screenshots, stack traces, etc.
+      placeholder: Currently...
+    validations:
+      required: true
+  - type: textarea
+    id: desired-behavior
+    attributes:
+      label: Desired behavior
+      description: If it's a new feature use the feature request template
+      placeholder: In this situation, RTDS should...
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Test code to reproduce
+      description: Please provide a failing test or code we can see.
+      placeholder: Here is my failing test code and the app code to run the tests on...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: RTDS Version
+      description: What version of RTDS are you running? Check your `package.json` to see your current version. If possible, please update RTDS to the latest version first.
+      placeholder: ex. 1.0.1
+    validations:
+      required: true
+  - type: input
+    id: node-version
+    attributes:
+      label: Node version
+      description: What version of node.js are you using to run RTDS?
+      placeholder: ex. v18.15.0
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: What browser is RTDS running on when you are encountering your problem?  The more specific the better.  ie macOS 12.4 or Safari 16.5.1
+      placeholder: ex. Edge
+    validations:
+      required: true
+  - type: textarea
+    id: other
+    attributes:
+      label: Other
+      placeholder: Any other details?

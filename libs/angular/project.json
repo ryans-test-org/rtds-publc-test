@@ -1,0 +1,53 @@
+{
+  "name": "angular",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/angular/src",
+  "prefix": "rtds",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:package",
+      "outputs": ["{workspaceRoot}/cypress/libs/angular"],
+      "options": {
+        "project": "libs/angular/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/angular/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/angular/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@angular-devkit/build-angular:karma",
+      "outputs": ["{workspaceRoot}/coverage/libs/angular"],
+      "options": {
+        "main": "libs/angular/src/test.ts",
+        "tsConfig": "libs/angular/tsconfig.spec.json",
+        "karmaConfig": "libs/angular/karma.conf.js"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "component-test": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "outputPath": "report",
+        "cypressConfig": "libs/angular/cypress.config.ts",
+        "video": false,
+        "screenshotOnRunFailure": true,
+        "screenshotsFolder": "report",
+        "testingType": "component",
+        "browser": "chromium",
+        "skipServe": true,
+        "runnerUi": false,
+        "devServerTarget": "storybook-app:build"
+      }
+    }
+  },
+  "tags": []
+}

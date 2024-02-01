@@ -1,0 +1,5 @@
+schemaVersion: 1695284289031
+deployment:
+  replicas: 1
+config:
+  APP_ENV: preprod

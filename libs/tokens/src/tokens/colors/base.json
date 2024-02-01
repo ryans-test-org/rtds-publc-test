@@ -1,0 +1,71 @@
+{
+  "color": {
+    "palette": {
+      "blue": {
+        "light": { "value": "#5d7199" },
+        "base": { "value": "#313c53" },
+        "dark": { "value": "#242d3d" },
+        "trade": { "value": "#313c53" }
+      },
+      "azure": {
+        "light": { "value": "#2a65ba" }
+      },
+      "aqua": {
+        "light": { "value": "#86ebe9" },
+        "base": { "value": "#00d7d2" },
+        "dark": { "value": "#06a09d" },
+        "trade": { "value": "#06a09d" },
+        "information": { "value": "#e0faf9" }
+      },
+      "green": {
+        "light": { "value": "#b4eda0" },
+        "base": { "value": "#4caf50" },
+        "dark": { "value": "#2e7d32" },
+        "trade": { "value": "#6bc167" },
+        "positive": { "value": "#e1f8d9" }
+      },
+      "yellow": {
+        "light": { "value": "#ffebb6" },
+        "base": { "value": "#ffc400" },
+        "dark": { "value": "#ff9a00" },
+        "attention": { "value": "#fff5db" }
+      },
+      "red": {
+        "light": { "value": "#ffd5d1" },
+        "base": { "value": "#ff4436" },
+        "dark": { "value": "#c90d00" },
+        "trade": { "value": "#ff7369" },
+        "critical": { "value": "#fff2f1" }
+      },
+      "grey": {
+        "lightest": { "value": "#f5f6f7" },
+        "light": { "value": "#eff0f3" },
+        "base": { "value": "#e2e5e8" },
+        "dark": { "value": "#d2d5d9" },
+        "darkest": { "value": "#c7cace" }
+      },
+      "ink": {
+        "light": { "value": "#6f6f6f" },
+        "dark": { "value": "#595959" }
+      },
+      "white": {
+        "base": { "value": "#ffffff" },
+        "dark": { "value": "#fafafb"}
+      },
+      "black": {
+        "base": { "value": "#000000" }
+      },
+      "transparent": {
+        "base": { "value": "transparent" }
+      },
+      "price-indicator": {
+        "high": { "value": "#ff9a7a" },
+        "fair": { "value": "#fbba00" },
+        "good": { "value": "#1e6446" },
+        "great": { "value": "#87c1a0" },
+        "low": { "value": "#d1d0cf" },
+        "neutral": { "value": "#f7f6f5" }
+      }
+    }
+  }
+}

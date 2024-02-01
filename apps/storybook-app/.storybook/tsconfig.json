@@ -1,0 +1,20 @@
+{
+  "extends": "../tsconfig.app.json",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true
+  },
+  "include": [
+    "../src/**/*",
+    "../../../libs/angular/**/*.component.ts",
+    "../../../libs/angular/cypress/support/*.ts",
+    "../../../libs/angular/**/*.stories.ts",
+    "*.js"
+  ],
+  "exclude": [
+    "../**/cypress.config.ts",
+    "cypress",
+    "../**/*.cy.ts",
+    "../**/*.spec.ts",
+    "../../../libs/angular/**/*.spec.ts"
+  ]
+}

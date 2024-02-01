@@ -1,0 +1,13 @@
+@use 'libs/styles/src/lib/sass/core/index' as *;
+
+#{$prefix}-panel {
+  &__footer {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: $grid-base-unit * 2;
+    padding-top: $grid-base-unit * 2;
+
+    border-top: 1px solid var(--rtds-color-grey-300);
+  }
+}

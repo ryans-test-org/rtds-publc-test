@@ -1,0 +1,77 @@
+import { Meta, IconGallery, IconItem } from '@storybook/blocks';
+import { completeIconSet } from '../../../../libs/icons/src';
+import { actionIcons, channelIcons, chevronIcons, informationIcons, mediaIcons, statusIcons } from './icon-sets';
+
+<Meta title="Foundation/Icons" />
+
+## Action Icons
+<br />
+<IconGallery>
+  {actionIcons.map((icon) => {
+    return (
+      <IconItem name={`${icon.name}`}>
+        <div dangerouslySetInnerHTML={{ __html: icon.data }} style={{display: "flex"}}></div>
+      </IconItem>
+    );
+  })}
+</IconGallery>
+
+## Chevron Icons
+<br />
+<IconGallery>
+  {chevronIcons.map((icon) => {
+    return (
+      <IconItem name={`${icon.name}`}>
+        <div dangerouslySetInnerHTML={{ __html: icon.data }} style={{display: "flex"}}></div>
+      </IconItem>
+    );
+  })}
+</IconGallery>
+
+## Information Icons
+<br />
+<IconGallery>
+  {informationIcons.map((icon) => {
+    return (
+      <IconItem name={`${icon.name}`}>
+        <div dangerouslySetInnerHTML={{ __html: icon.data }} style={{display: "flex"}}></div>
+      </IconItem>
+    );
+  })}
+</IconGallery>
+
+## Status Icons
+<br />
+<IconGallery>
+  {statusIcons.map((icon) => {
+    return (
+      <IconItem name={`${icon.name}`}>
+        <div dangerouslySetInnerHTML={{ __html: icon.data }} style={{display: "flex"}}></div>
+      </IconItem>
+    );
+  })}
+</IconGallery>
+
+## Media Icons
+<br />
+<IconGallery>
+  {mediaIcons.map((icon) => {
+    return (
+      <IconItem name={`${icon.name}`}>
+        <div dangerouslySetInnerHTML={{ __html: icon.data }} style={{display: "flex"}}></div>
+      </IconItem>
+    );
+  })}
+</IconGallery>
+
+## Channel Icons
+<br />
+<IconGallery>
+  {channelIcons.map((icon) => {
+    return (
+      <IconItem name={`${icon.name}`}>
+        <div dangerouslySetInnerHTML={{ __html: icon.data }} style={{display: "flex"}}></div>
+      </IconItem>
+    );
+  })}
+</IconGallery>

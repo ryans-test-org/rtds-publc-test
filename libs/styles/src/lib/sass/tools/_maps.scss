@@ -1,0 +1,117 @@
+@use 'sass:map';
+@use 'sass:meta';
+/// Function to merge a local scoped colour map with the colour map from this pattern library, so you can extend, or override, individual colours
+///
+/// @group Functions
+///
+/// @author Zsolt Pentz
+///
+/// @link https://medium.com/@pentzzsolt/a-non-destructive-map-merge-function-for-sass-f91637f87b2e https://medium.com/@pentzzsolt/a-non-destructive-map-merge-function-for-sass
+/// @param {variable} $global-palette - Name of the colour palette map
+/// @param {variable} $local-palette - The name of your locally scoped sass map
+/// @return {$palette} - A new colour palette with both global and local sass maps merged together
+/// @example scss - Like this in Sass
+///   $local-palette: (
+///     coffee: (
+///       latte: #faf6f0,
+///       cappuccino: #c2a693,
+///       espresso: #604a36
+///       )
+///     );
+///   $palette: non-destructive-map-merge($palette, $local-palette);
+///
+
+@function non-destructive-map-merge($parent-map, $child-map) {
+  $result: $parent-map;
+
+  @each $key, $value in $child-map {
+    @if not
+      map.has-key($result, $key) or
+      (meta.type-of(map.get($result, $key)) != meta.type-of($value)) or
+      (
+        not
+        ( meta.type-of(map.get($result, $key)) == map and meta.type-of($value) == map )
+      ) {
+      $result: map.merge(
+        $result,
+        (
+          $key: $value,
+        )
+      );
+    } @else {
+      $result: map.merge(
+        $result,
+        (
+          $key: non-destructive-map-merge(map.get($result, $key), $value),
+        )
+      );
+    }
+  }
+
+  @return $result;
+}
+
+/// Util to find a key in a map (removes duplicate "find key in map functionality")
+///
+/// @group Functions
+///
+/// @author Thomas Stapleton - AutoTrader
+///
+/// @param {variable} $key - Name of the key you want to find (base)
+/// @param {variable} $map - Map structure to that contains relevant keys
+/// @param {variable} $type - SCSS type to match e.g. number
+/// @param {variable} $warn - optional custom warning message
+/// @param {variable} $variant - sub map key e.g. searchModal on modals within the at-layers map
+/// @return {value} - The value of the found key or null
+/// @example scss - Like this in Sass
+///   // Raw example
+///
+///   $at-layers: (
+///     modals: (
+///       searchModal: 2000,
+///       base: 1000,
+///     )
+///   );
+///
+///   at-key-finder(modals, number, $at-layers, 'Custom warning message - layer not found', searchModal) // returns (searchModal) 2000
+///   at-key-finder(modals, number, $at-layers) // returns (base) 1000
+///
+///   Util example:
+///
+///   @function at-layers($layer, $variant: null) {
+///        @return at-key-finder($layer, $layers, number, null, $variant);
+///   }
+///
+///   at-layers(modals, searchModal) // returns (searchModal) 2000
+///   at-layers(modals) // returns (base) 1000
+///
+
+@function at-key-finder($key, $map, $type, $warn: null, $variant: null) {
+  @if not map.has-key($map, $key) {
+    @if not $warn {
+      @warn 'Could not find \'#{$key}\' in \'#{$map}\'';
+    } @else {
+      @warn $warn;
+    }
+
+    @return null;
+  }
+
+  @if meta.type-of(map.get($map, $key)) == $type {
+    @return map.get($map, $key);
+  } @else {
+    @if $variant == null {
+      $variant: base;
+    }
+
+    @return map.get(map.get($map, $key), $variant);
+  }
+}
+
+@function map-deep-get($map, $keys...) {
+  @each $key in $keys {
+    $map: map.get($map, $key);
+  }
+
+  @return $map;
+}

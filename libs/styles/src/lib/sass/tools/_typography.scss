@@ -1,0 +1,54 @@
+@use 'sass:string';
+@use 'sass:math';
+@use 'sass:meta';
+@use '../settings/typography';
+@use './functions' as *;
+@use '../tokens/tokens-sass' as *;
+
+@function remunit($value) {
+  @return calc(($value / 16) * 1rem);
+}
+
+@mixin typography-group($name, $weight: 'default', $is-mono: false, $use-relative-line-height: false) {
+  // Checks
+  $valid-weights: ('default', 'heavy', 'light');
+  $valid-groups: typography.$typography-groups;
+
+  @if type-of($is-mono) != bool {
+    @error "Value for #{$is-mono} must be a boolean (true or false).";
+  }
+
+  @if meta.global-variable-exists("rtds-typography-#{$name}-size") != true {
+    @error "The typography group '#{$name}' does not have a defined SASS variable, indicating the group does not exist.";
+  }
+
+  @include enforce-property-value($weight, $valid-weights);
+
+  @include enforce-property-value($name, $valid-groups);
+
+  // Output
+  font-size: remunit(var(#{"--rtds-typography-#{$name}-size"}));
+  font-weight: var(#{"--rtds-typography-#{$name}-weight-#{$weight}"});
+
+  @if $use-relative-line-height {
+    line-height: var(#{"--rtds-typography-#{$name}-line-height"});
+  } @else {
+    line-height: remunit(var(#{"--rtds-typography-#{$name}-line-height"}));
+  }
+
+  // TODO - hook up to actual breakpoints
+  @media (width >= 700px) {
+    font-size: remunit(var(#{"--rtds-typography-#{$name}-bp-medium-size"}));
+    font-weight: var(#{"--rtds-typography-#{$name}-bp-medium-weight-#{$weight}"});
+
+    @if $use-relative-line-height {
+      line-height: var(#{"--rtds-typography-#{$name}-line-height"});
+    } @else {
+      line-height: remunit(var(#{"--rtds-typography-#{$name}-line-height"}));
+    }
+  }
+
+  @if $is-mono {
+    font-feature-settings: 'tnum' 1;
+  }
+}

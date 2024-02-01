@@ -1,0 +1,25 @@
+@use 'libs/styles/src/lib/sass/core/index' as *;
+
+#{$prefix}-panel {
+  &__body-header {
+    display: flex;
+    margin-bottom: $grid-base-unit;
+
+    &-subtitle {
+      @include typography-group('display-1');
+
+      margin-right: auto;
+      color: var(--rtds-color-blue-300);
+      text-transform: uppercase;
+    }
+  }
+}
+
+:host {
+  display: block;
+  margin-bottom: $grid-base-unit * 2;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

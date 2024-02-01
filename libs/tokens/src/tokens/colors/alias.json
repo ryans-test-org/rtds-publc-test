@@ -1,0 +1,189 @@
+{
+  "color": {
+    "text": {
+      "_": { "value": "{color.palette.ink.dark.value}"},
+      "brand": {
+        "value": "{color.palette.blue.base.value}"
+      },
+      "brand-on-background-fill": {
+        "value": "{color.palette.white.base.value}"
+      },
+      "critical": {
+        "value": "{color.palette.red.base.value}"
+      },
+      "disabled": {
+        "value": "{color.palette.ink.light.value}"
+      },
+      "placeholder": {
+        "value": "{color.palette.ink.light.value}"
+      },
+      "link": {
+        "value": "{color.palette.azure.light.value}"
+      },
+      "link-hover": {
+        "value": "{color.palette.blue.base.value}"
+      },
+      "price-indicator-on-background-fill-high": {
+        "value": "{color.palette.blue.dark.value}"
+      },
+      "price-indicator-on-background-fill-fair": {
+        "value": "{color.palette.blue.dark.value}"
+      },
+      "price-indicator-on-background-fill-good": {
+        "value": "{color.palette.white.base.value}"
+      },
+      "price-indicator-on-background-fill-great": {
+        "value": "{color.palette.blue.dark.value}"
+      },
+      "price-indicator-on-background-fill-low": {
+        "value": "{color.palette.blue.dark.value}"
+      },
+      "price-indicator-on-background-fill-noanalysis": {
+        "value": "{color.palette.blue.dark.value}"
+      }
+    },
+    "background": {
+      "_": { "value": "{color.palette.grey.lightest.value}"},
+      "brand": {
+        "value": "{color.palette.blue.trade.value}"
+      },
+      "surface": {
+        "value": "{color.palette.white.base.value}"
+      },
+      "surface-hover": {
+        "value": "{color.palette.grey.light.value}"
+      },
+      "surface-subdued": {
+        "value": "{color.palette.white.dark.value}"
+      },
+      "surface-transparent": {
+        "value": "{color.palette.transparent.base.value}"
+      },
+      "positive-surface": {
+        "value": "{color.palette.green.positive.value}"
+      },
+      "attention-surface": {
+        "value": "{color.palette.yellow.attention.value}"
+      },
+      "critical-surface": {
+        "value": "{color.palette.red.critical.value}"
+      },
+      "information-surface": {
+        "value": "{color.palette.aqua.information.value}"
+      },
+      "fill": {
+        "value": "{color.palette.white.base.value}"
+      },
+      "fill-brand": {
+        "value": "{color.palette.blue.light.value}"
+      },
+      "positive-fill": {
+        "value": "{color.palette.green.light.value}"
+      },
+      "positive-fill-standout": {
+        "value": "{color.palette.green.dark.value}"
+      },
+      "attention-fill": {
+        "value": "{color.palette.yellow.light.value}"
+      },
+      "critical-fill": {
+        "value": "{color.palette.red.light.value}"
+      },
+      "critical-fill-standout": {
+        "value": "{color.palette.red.dark.value}"
+      },
+      "price-indicator-fill-high": {
+        "value": "{color.palette.price-indicator.high.value}"
+      },
+      "price-indicator-fill-fair": {
+        "value": "{color.palette.price-indicator.fair.value}"
+      },
+      "price-indicator-fill-good": {
+        "value": "{color.palette.price-indicator.good.value}"
+      },
+      "price-indicator-fill-great": {
+        "value": "{color.palette.price-indicator.great.value}"
+      },
+      "price-indicator-fill-low": {
+        "value": "{color.palette.price-indicator.low.value}"
+      },
+      "price-indicator-fill-noanalysis": {
+        "value": "{color.palette.price-indicator.neutral.value}"
+      },
+      "performance-rating-fill-low": {
+        "value": "{color.palette.red.base.value}"
+      },
+      "performance-rating-fill-belowavg": {
+        "value": "{color.palette.yellow.base.value}"
+      },
+      "performance-rating-fill-aboveavg": {
+        "value": "{color.palette.green.base.value}"
+      },
+      "performance-rating-fill-excellent": {
+        "value": "{color.palette.green.dark.value}"
+      },
+      "performance-rating-fill-no-rating": {
+        "value": "{color.palette.grey.darkest.value}"
+      }
+    },
+    "border": {
+      "_": { "value": "{color.palette.grey.darkest.value}"},
+      "focus": {
+        "value": "{color.palette.blue.trade.value}"
+      },
+      "brand": {
+        "value": "{color.palette.blue.base.value}"
+      },
+      "positive": {
+        "value": "{color.palette.green.base.value}"
+      },
+      "attention": {
+        "value": "{color.palette.yellow.base.value}"
+      },
+      "critical": {
+        "value": "{color.palette.red.base.value}"
+      },
+      "information": {
+        "value": "{color.palette.aqua.dark.value}"
+      },
+      "technical-error": {
+        "value": "{color.palette.grey.base.value}"
+      }
+    },
+    "icon": {
+      "brand": {
+        "value": "{color.palette.blue.base.value}"
+      },
+      "positive": {
+        "value": "{color.palette.green.trade.value}"
+      },
+      "attention": {
+        "value": "{color.palette.yellow.base.value}"
+      },
+      "critical": {
+        "value": "{color.palette.red.base.value}"
+      },
+      "information": {
+        "value": "{color.palette.aqua.dark.value}"
+      },
+      "technical-error": {
+        "value": "{color.palette.blue.light.value}"
+      },
+      "performance-rating-low": {
+        "value": "{color.palette.red.base.value}"
+      },
+      "performance-rating-belowavg": {
+        "value": "{color.palette.yellow.base.value}"
+      },
+      "performance-rating-aboveavg": {
+        "value": "{color.palette.green.base.value}"
+      },
+      "performance-rating-excellent": {
+        "value": "{color.palette.green.dark.value}"
+      },
+      "performance-rating-no-rating": {
+        "value": "{color.palette.grey.darkest.value}"
+      }
+    }
+  }
+}

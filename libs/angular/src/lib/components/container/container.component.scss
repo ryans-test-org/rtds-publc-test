@@ -1,0 +1,21 @@
+@use 'sass:map';
+@use 'sass:string';
+@use 'libs/styles/src/lib/sass/settings/index' as *;
+
+#{$prefix}-container {
+  display: flex;
+
+  width: 90%;
+  max-width: map.get($rtds-breakpoints, 'xl');
+  margin-right: auto;
+  margin-left: auto;
+
+  &--full {
+    width: 100%;
+    margin: 0 $grid-base-unit * 4;
+  }
+
+  &--narrow {
+    max-width: map.get($rtds-breakpoints, 'md');
+  }
+}

@@ -1,0 +1,1 @@
+"export const LIB_VERSION2 = 0.0.0;"

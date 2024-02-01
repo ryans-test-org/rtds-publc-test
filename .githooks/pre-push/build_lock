@@ -1,0 +1,113 @@
+#!/bin/sh
+#title           :Retailer Tools Design System Pre-push hook
+#description     :Pre push tests
+#version         :0.1
+#==============================================================================
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+BASELOG="\033[96m[\033[34mRetailer\033[96m-\033[34mTools\033[0m\033[96m]\033[0m "
+ENDLOG="\033[0m\n"
+
+output() {
+  printf "${BASELOG}$1${ENDLOG}"
+}
+
+remote="$1"
+url="$2"
+
+# UPSTREAM=${1:-'@{u}'}
+# LOCAL=$(git rev-parse @)
+# REMOTE=$(git rev-parse "$UPSTREAM")
+# BASE=$(git merge-base @ "$UPSTREAM")
+current_branch=$(git symbolic-ref --short HEAD)
+upstream_branch=$(git rev-parse --abbrev-ref "$current_branch@{upstream}" 2>/dev/null)
+# ROOT=$(git rev-parse --show-toplevel)
+
+printf "$(cat tools/ascii)"
+
+output "Remote is: \033[1m$remote"
+output "Remote URL is: \033[1m$url"
+
+z40=0000000000000000000000000000000000000000
+
+test_and_lint() {
+  ## this uses affected tests based on the SHA of the local and remote HEAD
+  ## also we store these 2 as .env values and add back into the commit so the pipeline does the same
+  ## Averride "RUN_ALL_TESTS" : true set on the pipeline with run all tests
+
+  ## STYLES RUNS ALL REGURADLESS
+  npm run lint:styles
+  error=$?
+
+  if [ $error -ne 0 ]; then
+    output "\e[91m\e[1m⛔️ *******************push aborted******************⛔"
+    exit 1
+  fi
+
+  npx nx affected:lint --base=origin/master --head=HEAD
+  error=$?
+
+  if [ $error -ne 0 ]; then
+    output "\e[91m\e[1m⛔️*******************push aborted******************⛔"
+    exit 1
+  fi
+
+  npx nx affected:test --base=origin/master --head=HEAD
+  error=$?
+
+  if [ $error -ne 0 ]; then
+    output "\e[91m\e[1m⛔️ *******************push aborted******************⛔"
+    exit 1
+  fi
+}
+##### end of test_and_lint() #####
+
+check_git_status() {
+  if [ -n "$upstream_branch" ]; then
+    # Check if the branch is up to date
+    if git merge-base --is-ancestor "$upstream_branch" "$current_branch"; then
+      output "Branch $current_branch is up to date with the remote origin."
+    else
+      output "\033[0mPush rejected! The branch $current_branch is not up to date with the remote origin."
+      exit 1 # Exit with non-zero status to cancel the push
+    fi
+  else
+    output "\033[0mThe branch $current_branch does not have an upstream branch set."
+  fi
+}
+
+##### end of check_git_status() #####
+
+while read local_ref local_sha remote_ref remote_sha; do
+  if [ "$local_sha" = $z40 ]; then
+    # Handle delete
+    :
+  else
+    if [ "$remote_sha" = $z40 ]; then
+      # New branch, examine all commits
+      range="$local_sha"
+    else
+      # Update to existing branch, examine new commits
+      range="$remote_sha..$local_sha"
+    fi
+    output "\033[96m====================================================="
+    output "⭐️                 Pre-push checks                  ⭐️"
+    output "\033[96m====================================================="
+
+    check_git_status
+    failIfPushingToOriginMasterOnRedBuild $url $remote_ref $range
+
+    test_and_lint
+
+  fi
+
+  output "\033[96m====================================================="
+  output "      Useful Links        "
+  output "\033[96m====================================================="
+  output "Portal Front End Channel:          \033[1mhttps://autotrader.enterprise.slack.com/archives/CA5K01DJA"
+  output "Retail Tools Design System Channel:          \033[1mhttps://autotrader.enterprise.slack.com/archives/C01E08Q9DKL"
+  output "RTDS Storybook:                         \033[1mhttps://app.retailer-tools-design-system.preprod.k8.atcloud.io/"
+
+done

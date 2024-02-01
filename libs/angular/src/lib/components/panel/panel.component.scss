@@ -1,0 +1,119 @@
+@use 'sass:map';
+@use 'sass:string';
+@use 'libs/styles/src/lib/sass/core/index' as *;
+
+$palette: (
+  standard: var(--rtds-color-background-surface),
+  success: var(--rtds-color-background-positive-surface),
+  attention: var(--rtds-color-background-attention-surface),
+  critical: var(--rtds-color-background-critical-surface),
+  informational: var(--rtds-color-background-information-surface),
+) !default;
+
+:host {
+  position: relative;
+  display: block;
+  // TBD how we space components - https://github.atcloud.io/AutoTrader/retailer-tools-design-system/issues/22
+  margin: $grid-base-unit * 3 0 $grid-base-unit * 3 0;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+#{$prefix}-panel {
+  padding: $grid-base-unit * 2;
+
+  font-size: pxtorem(14);
+  line-height: pxtorem(20);
+  color: var(--rtds-color-grey-800);
+
+  background-color: map.get($palette, standard);
+  border-radius: var(--rtds-border-radius-default-radius);
+  box-shadow: var(--rtds-shadow-standard);
+
+  &__container {
+    position: relative;
+
+    display: block;
+
+    margin-top: $grid-base-unit * 3;
+
+    font-size: pxtorem(14);
+    line-height: pxtorem(20);
+  }
+
+  &__header {
+    display: flex;
+    margin-bottom: $grid-base-unit;
+  }
+
+  &__title, &__subtitle {
+    margin-right: auto;
+    font-weight: var(--rtds-font-weight-medium);
+    color: var(--rtds-color-blue-300);
+  }
+
+  &__title {
+    font-size: pxtorem(16);
+    line-height: pxtorem(24);
+  }
+
+  &__subtitle {
+    font-size: pxtorem(12);
+    line-height: pxtorem(16);
+    text-transform: uppercase;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: $grid-base-unit * 2;
+    padding-top: $grid-base-unit * 2;
+
+    border-top: 1px solid var(--rtds-color-grey-300);
+  }
+
+  &__terms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $grid-base-unit;
+    align-items: center;
+    justify-content: flex-end;
+
+    margin-top: $grid-base-unit;
+
+    text-align: $grid-base-unit * 2;
+
+    &-copy {
+
+      @include bp('md') {
+        max-width: 85%;
+      }
+      width: 100%;
+      margin: 0;
+      padding: 0;
+
+      font-size: pxtorem(14);
+      line-height: normal;
+      text-align: right;
+    }
+  }
+
+  &--success {
+    background-color: map.get($palette, success);
+  }
+
+  &--critical {
+    background-color: map.get($palette, critical);
+  }
+
+  &--attention {
+    background-color: map.get($palette, attention);
+  }
+
+  &--informational {
+    background-color: map.get($palette, informational);
+  }
+}

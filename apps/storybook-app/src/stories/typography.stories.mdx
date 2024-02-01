@@ -1,0 +1,18 @@
+import { Meta, Unstyled, Canvas } from '@storybook/blocks';
+import { BADGE } from "@geometricpanda/storybook-addon-badges";
+import * as tokens from 'libs/tokens/dist/object/tokens';
+
+<Meta title="Foundation/Typography" parameters={{ badges: [BADGE.BETA] }} />
+
+## Typography
+
+<Canvas>
+  <Unstyled>
+    {Object.keys(tokens.typography).map((key) => (
+          <div>
+            <div class={key}>{key.replace(/-/, ' ').replace(/\b\w/g, c => c.toUpperCase())}</div>
+          </div>
+        )
+    )}
+  </Unstyled>
+</Canvas>

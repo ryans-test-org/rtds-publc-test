@@ -1,0 +1,8 @@
+//== RTDS Breakpoints
+$rtds-breakpoints: (
+  'md': 768px,
+  // Tablet
+  'lg': 1280px,
+  // Small desktop
+  'xl': 1920px // Large desktop,,
+) !default;

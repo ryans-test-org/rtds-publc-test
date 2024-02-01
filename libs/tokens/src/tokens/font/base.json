@@ -1,0 +1,54 @@
+{
+  "fontFamily": {
+    "value": "\"ATVFabriga\", -apple-system, blinkmacsystemfont, \"Segoe UI\", helvetica, arial, sans-serif"
+  },
+  "fontWeight": {
+    "light": {
+      "value": 300
+    },
+    "regular": {
+      "value": 400
+    },
+    "medium": {
+      "value": 500
+    },
+    "bold": {
+      "value": 700
+    }
+  },
+  "fontSize": {
+    "75": {"value": "14"},
+    "100": {"value": "16"},
+    "200": {"value": "20"},
+    "300": {"value": "24"},
+    "400": {"value": "28"},
+    "500": {"value": "32"},
+    "600": {"value": "40"},
+    "700": {"value": "48"},
+    "800": {"value": "60"},
+    "900": {"value": "68"},
+    "1000": {"value": "82"},
+    "1100": {"value": "100"}
+  },
+  "lineHeight": {
+    "fixed": {
+      "75": {"value": "20"},
+      "100": {"value": "24"},
+      "200": {"value": "26"},
+      "300": {"value": "30"},
+      "400": {"value": "34"},
+      "500": {"value": "38"},
+      "600": {"value": "46"},
+      "700": {"value": "56"},
+      "800": {"value": "66"},
+      "900": {"value": "74"},
+      "1000": {"value": "88"},
+      "1100": {"value": "106"}
+    },
+    "relative": {
+      "100": {"value": "1"},
+      "500": {"value": "1.25"},
+      "900": {"value": "1.5"}
+    }
+  }
+}

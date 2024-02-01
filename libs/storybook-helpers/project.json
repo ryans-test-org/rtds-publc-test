@@ -1,0 +1,29 @@
+{
+  "name": "storybook-helpers",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/storybook-helpers/src",
+  "prefix": "rtds",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:package",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "libs/storybook-helpers/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/storybook-helpers/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/storybook-helpers/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  },
+  "tags": []
+}

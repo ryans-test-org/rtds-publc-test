@@ -1,0 +1,28 @@
+@use 'libs/styles/src/lib/sass/core/index' as *;
+
+#{$prefix}-panel {
+  &__supplementary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $grid-base-unit;
+    align-items: center;
+    justify-content: flex-end;
+
+    margin-top: $grid-base-unit;
+
+    text-align: $grid-base-unit * 2;
+
+    &-content {
+      @include bp('md') {
+        max-width: 85%;
+      }
+      width: 100%;
+      margin: 0;
+      padding: 0;
+
+      font-size: pxtorem(14);
+      line-height: normal;
+      text-align: right;
+    }
+  }
+}

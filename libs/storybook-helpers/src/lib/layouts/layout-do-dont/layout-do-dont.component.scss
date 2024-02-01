@@ -1,0 +1,56 @@
+/* stylelint-disable color-no-hex */
+:host .rtds-do-dont__wrapper {
+  display: flex;
+  grid-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+:host .rtds-do-dont__block {
+  background-color: #f7f9fb;
+  padding: 20px;
+  width: 50%;
+  min-width: 200px;
+  border-radius: 3px;
+  border-top: 5px solid #00bd00;
+}
+
+:host .rtds-do-dont__block--do {
+  border-top: 5px solid #00bd00;
+}
+
+:host .rtds-do-dont__block--dont {
+  border-top: 5px solid #e14500;
+}
+
+:host .rtds-do-dont__label {
+  display: block;
+  font-family: sans-serif;
+  color: #00bd00;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+:host .rtds-do-dont__block--dont .rtds-do-dont__label {
+  color: #e14500;
+}
+
+:host .rtds-do-dont__list {
+  font-family: sans-serif;
+  line-height: 2;
+  font-size: 0.9em;
+}
+
+:host .rtds-do-dont__list-item:before {
+  margin-right: 5px;
+}
+
+:host .rtds-do-dont__block--do .rtds-do-dont__list-item:before {
+  content: '✅';
+}
+
+:host .rtds-do-dont__block--dont .rtds-do-dont__list-item:before {
+  content: '❌';
+}

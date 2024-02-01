@@ -1,0 +1,4 @@
+dependencyCheck:
+  includeDevDependencies: false
+  enabled: true
+  forceContinue: false

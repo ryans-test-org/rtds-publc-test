@@ -1,0 +1,15 @@
+@use 'libs/styles/src/lib/sass/core/index' as *;
+
+#{$prefix}-panel {
+  &__header {
+    display: flex;
+    margin-bottom: $grid-base-unit;
+  }
+
+  &__title {
+    @include typography-group('display-1');
+
+    margin-right: auto;
+    color: var(--rtds-color-blue-300);
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "extends": "./node_modules/@rtds/tooling/.stylelintrc",
+  "ignoreFiles": ["**/*.html", "**/*.js", "**/*.ts"]
+}

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Slack
+    url: https://autotrader.enterprise.slack.com/archives/C01E08Q9DKL
+    about: Want to ask a question about RTDS? Join our Slack channel.
+  - name: 📒 RTDS Storybook
+    url: https://app.retailer-tools-design-system.preprod.k8.atcloud.io/
+    about: The Storybook ui for the design system.
+  - name: 👷 RTDS Pipeline
+    url: https://go.atcloud.io/go/pipeline/activity/retailer-tools-storybook
+    about: The RTDS GoCD pipeline.

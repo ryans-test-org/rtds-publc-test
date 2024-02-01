@@ -1,0 +1,12 @@
+<div class="rtds-panel__body">
+  @if (subtitle) {
+    <div class="rtds-panel__body-header">
+      <div class="rtds-panel__body-header-subtitle">{{subtitle}}</div>
+      <ng-content select="[action]"></ng-content>
+    </div>
+  }
+
+  <div>
+    <ng-content></ng-content>
+  </div>
+</div>
