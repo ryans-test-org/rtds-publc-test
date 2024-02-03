@@ -1,6 +1,6 @@
 
 > rtds@0.0.0 build-storybook
-> nx run storybook-app:build-storybook --skip-nx-cache --output-dir /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--44801-f8Ut3MSNaeXy
+> nx run storybook-app:build-storybook --skip-nx-cache --output-dir /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--64670-ffoK5IAlMBNA
 
 
  >  NX   --skip-nx-cache disables the connection to Nx Cloud for the current run.
@@ -8,11 +8,11 @@
    The remote cache will not be read from or written to during this run.
 
 
-> nx run storybook-app:build-storybook --output-dir /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--44801-f8Ut3MSNaeXy
+> nx run storybook-app:build-storybook --output-dir /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--64670-ffoK5IAlMBNA
 
  [33m>[39m [0m[7m[1m[33m NX [39m[22m[27m[0m  [33m--skip-nx-cache disables the connection to Nx Cloud for the current run.[39m
    The remote cache will not be read from or written to during this run.
-[2m> [22m[2mnx run[22m icons:generate-icons --output-dir /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--44801-f8Ut3MSNaeXy
+[2m> [22m[2mnx run[22m icons:generate-icons --output-dir /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--64670-ffoK5IAlMBNA
 - Deleting the output folder
 svg-to-ts: ✔ Deleting the output folder
 - Processing SVG files
@@ -35,26 +35,26 @@ svg-to-ts: 🏁 Everything is perfect: Icons succesfully generated under ./libs/
  [32m>[39m [0m[7m[1m[32m NX [39m[22m[27m[0m  [32mSuccessfully ran target generate-icons for project icons[39m
  [33m>[39m [0m[7m[1m[33m NX [39m[22m[27m[0m  [33m--skip-nx-cache disables the connection to Nx Cloud for the current run.[39m
    The remote cache will not be read from or written to during this run.
-[2m> [22m[2mnx run[22m tokens:build --output-dir /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--44801-f8Ut3MSNaeXy
+[2m> [22m[2mnx run[22m tokens:build --output-dir /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--64670-ffoK5IAlMBNA
 scss
-[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/tokens/dist/scss/_tokens.scss[39m[22m
-[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/tokens/dist/scss/_tokens-dark.scss[39m[22m
-[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/tokens/dist/scss/_tokens-sass.scss[39m[22m
-[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/tokens/dist/scss/_tokens-sass-map.scss[39m[22m
+[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/tokens/dist/scss/_tokens.scss[39m[22m
+[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/tokens/dist/scss/_tokens-dark.scss[39m[22m
+[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/tokens/dist/scss/_tokens-sass.scss[39m[22m
+[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/tokens/dist/scss/_tokens-sass-map.scss[39m[22m
 Copying tokens build output to libs/styles/src/lib/sass/tokens
 js
-[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/tokens/dist/js/tokens.js[39m[22m
+[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/tokens/dist/js/tokens.js[39m[22m
 object
-[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/tokens/dist/object/tokens.js[39m[22m
+[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/tokens/dist/object/tokens.js[39m[22m
 ts
-[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/tokens/dist/ts/tokens.ts[39m[22m
-[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/tokens/dist/ts/tokens.d.ts[39m[22m
+[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/tokens/dist/ts/tokens.ts[39m[22m
+[1m[32m✔︎ /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/tokens/dist/ts/tokens.d.ts[39m[22m
 ✅ Successfully built design tokens
  
  [32m>[39m [0m[7m[1m[32m NX [39m[22m[27m[0m  [32mSuccessfully ran target build for project tokens[39m
  [33m>[39m [0m[7m[1m[33m NX [39m[22m[27m[0m  [33m--skip-nx-cache disables the connection to Nx Cloud for the current run.[39m
    The remote cache will not be read from or written to during this run.
-[2m> [22m[2mnx run[22m storybook-app:storybook-build --output-dir /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--44801-f8Ut3MSNaeXy
+[2m> [22m[2mnx run[22m storybook-app:storybook-build --output-dir /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--64670-ffoK5IAlMBNA
 [0m
 [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
 [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
@@ -67,232 +67,232 @@ ts
 [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
 [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
 [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
-1.1.22
+1.1.23
 TypeScript version used by Compodoc : 5.2.2
 TypeScript version of current project : 5.2.2
 Node.js version : v18.16.0
 Operating system : macOS Unknown
-[11:58:26] No configuration file found, switching to CLI flags.
-[11:58:26] Using tsconfig file : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/.storybook/tsconfig.json
-[11:58:26] Excluding      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/favicon.ico
-[11:58:26] Excluding      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/index.html
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/main.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/polyfills.ts
-[11:58:26] Excluding      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/styles.scss
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/test.ts
-[11:58:26] Excluding      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/.storybook/preview.js
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/cypress/support/commands.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/cypress/support/component.ts
-[11:58:26] Excluding      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/app/app.component.html
-[11:58:26] Excluding      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/app/app.component.scss
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/app/app.component.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/app/app.module.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/app/rtds-welcome.component.stories.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/app/rtds-welcome.component.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/environments/environment.prod.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/environments/environment.ts
-[11:58:26] Excluding      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/stories/icon-gallery.stories.mdx
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/stories/icon-sets.ts
-[11:58:26] Excluding      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/stories/palette.stories.mdx
-[11:58:26] Excluding      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/stories/shadows.stories.mdx
-[11:58:26] Excluding      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/stories/typography.stories.mdx
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/container/container.component.stories.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/container/container.component.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/icon/icon.component.stories.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/icon/icon.component.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/panel.component.stories.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/panel.component.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/banner/banner.component.stories.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/banner/banner.component.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/content/panel-content.component.stories.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/content/panel-content.component.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/header/panel-header.component.stories.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/header/panel-header.component.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/footer/panel-footer.component.stories.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/footer/panel-footer.component.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/group/panel-group.component.stories.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/group/panel-group.component.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/supplementary/panel-supplementary.component.stories.ts
-[11:58:26] Including      : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/supplementary/panel-supplementary.component.ts
-[11:58:26] Searching package.json file
-[11:58:26] package.json file found
-[11:58:26] Processing package.json dependencies
-[11:58:26] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
-[11:58:26] README.md file found
-[11:58:26] Error during /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/CHANGELOG read
-[11:58:26] Continuing without CHANGELOG.md file
-[11:58:26] CONTRIBUTING.md file found
-[11:58:26] Error during /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/LICENSE read
-[11:58:26] Continuing without LICENSE.md file
-[11:58:26] Error during /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/TODO read
-[11:58:26] Continuing without TODO.md file
-[11:58:26] Get dependencies data
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/main.ts
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/polyfills.ts
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/test.ts
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/cypress/support/commands.ts
-[11:58:26] found          : Chainable
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/cypress/support/component.ts
-[11:58:26] found          : terminalLog
-[11:58:26] found          : injectAxe
-[11:58:26] found          : runA11y
-[11:58:26] found          : Chainable
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/app/app.component.ts
-[11:58:26] found          : AppComponent
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/app/app.module.ts
-[11:58:26] found          : AppModule
-[11:58:26]                : - imports:
-[11:58:26]                : 	- BrowserModule
-[11:58:26]                : 	- ComponentsModule
-[11:58:26]                : 	- CommonModule
-[11:58:26]                : - declarations:
-[11:58:26]                : 	- AppComponent
-[11:58:26]                : 	- RTDSWelcomeComponent
-[11:58:26]                : - bootstrap:
-[11:58:26]                : 	- AppComponent
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/app/rtds-welcome.component.stories.ts
-[11:58:26] found          : meta
-[11:58:26] found          : Story
-[11:58:26] found          : Docs
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/app/rtds-welcome.component.ts
-[11:58:26] found          : RTDSWelcomeComponent
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/environments/environment.prod.ts
-[11:58:26] found          : environment
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/environments/environment.ts
-[11:58:26] found          : environment
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/stories/icon-sets.ts
-[11:58:26] found          : actionIcons
-[11:58:26] found          : chevronIcons
-[11:58:26] found          : informationIcons
-[11:58:26] found          : mediaIcons
-[11:58:26] found          : statusIcons
-[11:58:26] found          : channelIcons
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/container/container.component.stories.ts
-[11:58:26] found          : meta
-[11:58:26] found          : Story
-[11:58:26] found          : Default
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/container/container.component.ts
-[11:58:26] found          : ContainerComponent
-[11:58:26] found          : Type
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/icon/icon.component.stories.ts
-[11:58:26] found          : meta
-[11:58:26] found          : Story
-[11:58:26] found          : Default
-[11:58:26] found          : Small
-[11:58:26] found          : Large
-[11:58:26] found          : DefaultWithoutSize
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/icon/icon.component.ts
-[11:58:26] found          : IconComponent
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/panel.component.stories.ts
-[11:58:26] found          : meta
-[11:58:26] found          : Story
-[11:58:26] found          : description
-[11:58:26] found          : supplementary
-[11:58:26] found          : Default
-[11:58:26] found          : WithHeader
-[11:58:26] found          : WithActions
-[11:58:26] found          : PanelFooter
-[11:58:26] found          : PanelSupplementary
-[11:58:26] found          : MultiplePanels
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/panel.component.ts
-[11:58:26] found          : PanelComponent
-[11:58:26] found          : PanelVariants
-[11:58:26] found          : Variant
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/banner/banner.component.stories.ts
-[11:58:26] found          : meta
-[11:58:26] found          : Story
-[11:58:26] found          : description
-[11:58:26] found          : shortDescription
-[11:58:26] found          : Page
-[11:58:26] found          : Global
-[11:58:26] found          : InPanel
-[11:58:26] found          : Local
-[11:58:26] found          : Clickable
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/banner/banner.component.ts
-[11:58:26] found          : BannerComponent
-[11:58:26] found          : Banners
-[11:58:26] found          : Banner
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/content/panel-content.component.stories.ts
-[11:58:26] found          : meta
-[11:58:26] found          : Story
-[11:58:26] found          : description
-[11:58:26] found          : Default
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/content/panel-content.component.ts
-[11:58:26] found          : PanelContentComponent
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/header/panel-header.component.stories.ts
-[11:58:26] found          : meta
-[11:58:26] found          : Story
-[11:58:26] found          : Default
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/header/panel-header.component.ts
-[11:58:26] found          : PanelHeaderComponent
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/footer/panel-footer.component.stories.ts
-[11:58:26] found          : meta
-[11:58:26] found          : Story
-[11:58:26] found          : Default
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/footer/panel-footer.component.ts
-[11:58:26] found          : PanelFooterComponent
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/group/panel-group.component.stories.ts
-[11:58:26] found          : meta
-[11:58:26] found          : Story
-[11:58:26] found          : description
-[11:58:26] found          : Default
-[11:58:26] found          : ThreePanels
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/group/panel-group.component.ts
-[11:58:26] found          : PanelGroupComponent
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/supplementary/panel-supplementary.component.stories.ts
-[11:58:26] found          : meta
-[11:58:26] found          : Story
-[11:58:26] found          : description
-[11:58:26] found          : supplementary
-[11:58:26] found          : Default
-[11:58:26] parsing        : /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/panel/components/supplementary/panel-supplementary.component.ts
-[11:58:26] found          : PanelSupplementaryComponent
-[11:58:26] -------------------
-[11:58:26] Project statistics 
-[11:58:26] - files      : 30
-[11:58:26] - module     : 1
-[11:58:26] - component  : 11
-[11:58:26] - interface  : 2
-[11:58:26] -------------------
-[11:58:26] Prepare components
-[11:58:26]  AppComponent has a templateUrl, include it
-[11:58:26]  AppComponent has styleUrls, include them
-[11:58:26]  BannerComponent has a templateUrl, include it
-[11:58:26]  BannerComponent has styleUrls, include them
-[11:58:26]  ContainerComponent has a templateUrl, include it
-[11:58:26]  ContainerComponent has styleUrls, include them
-[11:58:26]  IconComponent has a templateUrl, include it
-[11:58:26]  IconComponent has styleUrls, include them
-[11:58:26]  PanelComponent has a templateUrl, include it
-[11:58:26]  PanelComponent has styleUrls, include them
-[11:58:26]  PanelContentComponent has a templateUrl, include it
-[11:58:26]  PanelContentComponent has styleUrls, include them
-[11:58:26]  PanelFooterComponent has a templateUrl, include it
-[11:58:26]  PanelFooterComponent has styleUrls, include them
-[11:58:26]  PanelGroupComponent has a templateUrl, include it
-[11:58:26]  PanelGroupComponent has styleUrls, include them
-[11:58:26]  PanelHeaderComponent has a templateUrl, include it
-[11:58:26]  PanelHeaderComponent has styleUrls, include them
-[11:58:26]  PanelSupplementaryComponent has a templateUrl, include it
-[11:58:26]  PanelSupplementaryComponent has styleUrls, include them
-[11:58:26] Prepare modules
-[11:58:26] Prepare interfaces
-[11:58:26] Prepare miscellaneous
-[11:58:26] Process documentation coverage report
-[11:58:26] Generating documentation in export format json
-[11:58:26] Documentation generated in apps/storybook-app/ in 0.523 seconds
-info => Cleaning outputDir: /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--44801-f8Ut3MSNaeXy
+[09:15:32] No configuration file found, switching to CLI flags.
+[09:15:32] Using tsconfig file : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/.storybook/tsconfig.json
+[09:15:32] Excluding      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/favicon.ico
+[09:15:32] Excluding      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/index.html
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/main.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/polyfills.ts
+[09:15:32] Excluding      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/styles.scss
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/test.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/cypress/support/commands.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/cypress/support/component.ts
+[09:15:32] Excluding      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/.storybook/preview.js
+[09:15:32] Excluding      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/app/app.component.html
+[09:15:32] Excluding      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/app/app.component.scss
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/app/app.component.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/app/app.module.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/app/rtds-welcome.component.stories.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/app/rtds-welcome.component.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/environments/environment.prod.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/environments/environment.ts
+[09:15:32] Excluding      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/stories/icon-gallery.stories.mdx
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/stories/icon-sets.ts
+[09:15:32] Excluding      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/stories/palette.stories.mdx
+[09:15:32] Excluding      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/stories/shadows.stories.mdx
+[09:15:32] Excluding      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/stories/typography.stories.mdx
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/container/container.component.stories.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/container/container.component.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/panel.component.stories.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/panel.component.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/banner/banner.component.stories.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/banner/banner.component.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/icon/icon.component.stories.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/icon/icon.component.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/footer/panel-footer.component.stories.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/footer/panel-footer.component.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/group/panel-group.component.stories.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/group/panel-group.component.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/content/panel-content.component.stories.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/content/panel-content.component.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/header/panel-header.component.stories.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/header/panel-header.component.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/supplementary/panel-supplementary.component.stories.ts
+[09:15:32] Including      : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/supplementary/panel-supplementary.component.ts
+[09:15:32] Searching package.json file
+[09:15:32] package.json file found
+[09:15:32] Processing package.json dependencies
+[09:15:32] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[09:15:32] README.md file found
+[09:15:32] Error during /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/CHANGELOG read
+[09:15:32] Continuing without CHANGELOG.md file
+[09:15:32] CONTRIBUTING.md file found
+[09:15:32] Error during /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/LICENSE read
+[09:15:32] Continuing without LICENSE.md file
+[09:15:32] Error during /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/TODO read
+[09:15:32] Continuing without TODO.md file
+[09:15:32] Get dependencies data
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/main.ts
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/polyfills.ts
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/test.ts
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/cypress/support/commands.ts
+[09:15:32] found          : Chainable
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/cypress/support/component.ts
+[09:15:32] found          : terminalLog
+[09:15:32] found          : injectAxe
+[09:15:32] found          : runA11y
+[09:15:32] found          : Chainable
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/app/app.component.ts
+[09:15:32] found          : AppComponent
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/app/app.module.ts
+[09:15:32] found          : AppModule
+[09:15:32]                : - imports:
+[09:15:32]                : 	- BrowserModule
+[09:15:32]                : 	- ComponentsModule
+[09:15:32]                : 	- CommonModule
+[09:15:32]                : - declarations:
+[09:15:32]                : 	- AppComponent
+[09:15:32]                : 	- RTDSWelcomeComponent
+[09:15:32]                : - bootstrap:
+[09:15:32]                : 	- AppComponent
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/app/rtds-welcome.component.stories.ts
+[09:15:32] found          : meta
+[09:15:32] found          : Story
+[09:15:32] found          : Docs
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/app/rtds-welcome.component.ts
+[09:15:32] found          : RTDSWelcomeComponent
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/environments/environment.prod.ts
+[09:15:32] found          : environment
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/environments/environment.ts
+[09:15:32] found          : environment
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/stories/icon-sets.ts
+[09:15:32] found          : actionIcons
+[09:15:32] found          : chevronIcons
+[09:15:32] found          : informationIcons
+[09:15:32] found          : mediaIcons
+[09:15:32] found          : statusIcons
+[09:15:32] found          : channelIcons
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/container/container.component.stories.ts
+[09:15:32] found          : meta
+[09:15:32] found          : Story
+[09:15:32] found          : Default
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/container/container.component.ts
+[09:15:32] found          : ContainerComponent
+[09:15:32] found          : Type
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/panel.component.stories.ts
+[09:15:32] found          : meta
+[09:15:32] found          : Story
+[09:15:32] found          : description
+[09:15:32] found          : supplementary
+[09:15:32] found          : Default
+[09:15:32] found          : WithHeader
+[09:15:32] found          : WithActions
+[09:15:32] found          : PanelFooter
+[09:15:32] found          : PanelSupplementary
+[09:15:32] found          : MultiplePanels
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/panel.component.ts
+[09:15:32] found          : PanelComponent
+[09:15:32] found          : PanelVariants
+[09:15:32] found          : Variant
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/banner/banner.component.stories.ts
+[09:15:32] found          : meta
+[09:15:32] found          : Story
+[09:15:32] found          : description
+[09:15:32] found          : shortDescription
+[09:15:32] found          : Page
+[09:15:32] found          : Global
+[09:15:32] found          : InPanel
+[09:15:32] found          : Local
+[09:15:32] found          : Clickable
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/banner/banner.component.ts
+[09:15:32] found          : BannerComponent
+[09:15:32] found          : Banners
+[09:15:32] found          : Banner
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/icon/icon.component.stories.ts
+[09:15:32] found          : meta
+[09:15:32] found          : Story
+[09:15:32] found          : Default
+[09:15:32] found          : Small
+[09:15:32] found          : Large
+[09:15:32] found          : DefaultWithoutSize
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/icon/icon.component.ts
+[09:15:32] found          : IconComponent
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/footer/panel-footer.component.stories.ts
+[09:15:32] found          : meta
+[09:15:32] found          : Story
+[09:15:32] found          : Default
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/footer/panel-footer.component.ts
+[09:15:32] found          : PanelFooterComponent
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/group/panel-group.component.stories.ts
+[09:15:32] found          : meta
+[09:15:32] found          : Story
+[09:15:32] found          : description
+[09:15:32] found          : Default
+[09:15:32] found          : ThreePanels
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/group/panel-group.component.ts
+[09:15:32] found          : PanelGroupComponent
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/content/panel-content.component.stories.ts
+[09:15:32] found          : meta
+[09:15:32] found          : Story
+[09:15:32] found          : description
+[09:15:32] found          : Default
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/content/panel-content.component.ts
+[09:15:32] found          : PanelContentComponent
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/header/panel-header.component.stories.ts
+[09:15:32] found          : meta
+[09:15:32] found          : Story
+[09:15:32] found          : Default
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/header/panel-header.component.ts
+[09:15:32] found          : PanelHeaderComponent
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/supplementary/panel-supplementary.component.stories.ts
+[09:15:32] found          : meta
+[09:15:32] found          : Story
+[09:15:32] found          : description
+[09:15:32] found          : supplementary
+[09:15:32] found          : Default
+[09:15:32] parsing        : /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/panel/components/supplementary/panel-supplementary.component.ts
+[09:15:32] found          : PanelSupplementaryComponent
+[09:15:32] -------------------
+[09:15:32] Project statistics 
+[09:15:32] - files      : 30
+[09:15:32] - module     : 1
+[09:15:32] - component  : 11
+[09:15:32] - interface  : 2
+[09:15:32] -------------------
+[09:15:32] Prepare components
+[09:15:32]  AppComponent has a templateUrl, include it
+[09:15:32]  AppComponent has styleUrls, include them
+[09:15:32]  BannerComponent has a templateUrl, include it
+[09:15:32]  BannerComponent has styleUrls, include them
+[09:15:32]  ContainerComponent has a templateUrl, include it
+[09:15:32]  ContainerComponent has styleUrls, include them
+[09:15:32]  IconComponent has a templateUrl, include it
+[09:15:32]  IconComponent has styleUrls, include them
+[09:15:32]  PanelComponent has a templateUrl, include it
+[09:15:32]  PanelComponent has styleUrls, include them
+[09:15:32]  PanelContentComponent has a templateUrl, include it
+[09:15:32]  PanelContentComponent has styleUrls, include them
+[09:15:32]  PanelFooterComponent has a templateUrl, include it
+[09:15:32]  PanelFooterComponent has styleUrls, include them
+[09:15:32]  PanelGroupComponent has a templateUrl, include it
+[09:15:32]  PanelGroupComponent has styleUrls, include them
+[09:15:32]  PanelHeaderComponent has a templateUrl, include it
+[09:15:32]  PanelHeaderComponent has styleUrls, include them
+[09:15:32]  PanelSupplementaryComponent has a templateUrl, include it
+[09:15:32]  PanelSupplementaryComponent has styleUrls, include them
+[09:15:32] Prepare modules
+[09:15:32] Prepare interfaces
+[09:15:32] Prepare miscellaneous
+[09:15:32] Process documentation coverage report
+[09:15:32] Generating documentation in export format json
+[09:15:32] Documentation generated in apps/storybook-app/ in 0.404 seconds
+info => Cleaning outputDir: /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--64670-ffoK5IAlMBNA
 info => Loading presets
 info => Building manager..
-info => Manager built (1.07 s)
+info => Manager built (592 ms)
 info => Building preview..
-info => Copying static files: /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/node_modules/@storybook/manager/static at /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--44801-f8Ut3MSNaeXy/sb-common-assets
+info => Copying static files: /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/node_modules/@storybook/manager/static at /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--64670-ffoK5IAlMBNA/sb-common-assets
 WARN No story files found for the specified pattern: apps/storybook-app/src/stories/**/*.stories.ts
 info Using Babel compiler
 info Addon-docs: using MDX2
 info => Using implicit CSS loaders
 info => Using angular browser target options from "storybook-app:build"
-info => Using angular project with "tsConfig:/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/.storybook/tsconfig.json"
+info => Using angular project with "tsConfig:/Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/.storybook/tsconfig.json"
 WARN No story files found for the specified pattern: libs/angular/**/*.stories.mdx
 info => Using default Webpack5 setup
 <s> [webpack.Progress] 0% 
@@ -412,10 +412,9 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 10% building import loader ./node_modules/postcss-loader/dist/cjs.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/resolve-url-loader/index.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/sass-loader/dist/cjs.js
-<s> [webpack.Progress] 10% building 0/5 entries 4/5 dependencies 0/4 modules
+<s> [webpack.Progress] 10% building 0/5 entries 3/5 dependencies 0/3 modules
 <s> [webpack.Progress] 10% building import loader ./node_modules/@ngtools/webpack/src/ivy/index.js
-<s> [webpack.Progress] 10% building 0/5 entries 4/6 dependencies 0/4 modules
-<s> [webpack.Progress] 10% building 0/5 entries 12/25 dependencies 4/12 modules
+<s> [webpack.Progress] 10% building 0/5 entries 3/6 dependencies 0/3 modules
 <s> [webpack.Progress] 21% building 1/5 entries 12/25 dependencies 4/12 modules
 <s> [webpack.Progress] 32% building 2/5 entries 17/31 dependencies 6/17 modules
 <s> [webpack.Progress] 31% building import loader ./node_modules/@storybook/builder-webpack5/dist/loaders/export-order-loader.js
@@ -423,17 +422,16 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 31% building 2/5 entries 26/37 dependencies 7/26 modules
 <s> [webpack.Progress] 32% building import loader ./node_modules/babel-loader/lib/index.js
 <s> [webpack.Progress] 32% building 2/5 entries 28/37 dependencies 7/28 modules
-<s> [webpack.Progress] 32% building 2/5 entries 35/62 dependencies 7/34 modules
+<s> [webpack.Progress] 32% building 2/5 entries 34/38 dependencies 7/34 modules
 <s> [webpack.Progress] 32% building import loader ./node_modules/unplugin/dist/webpack/loaders/transform.js
-<s> [webpack.Progress] 32% building 2/5 entries 36/62 dependencies 7/35 modules
-<s> [webpack.Progress] 43% building 3/5 entries 100/123 dependencies 19/67 modules
-<s> [webpack.Progress] 54% building 4/5 entries 100/123 dependencies 21/67 modules
-<s> [webpack.Progress] 50% building 4/5 entries 200/275 dependencies 30/115 modules
-<s> [webpack.Progress] 54% building 4/5 entries 400/467 dependencies 94/195 modules
-<s> [webpack.Progress] 52% building 4/5 entries 1000/1285 dependencies 117/610 modules
-<s> [webpack.Progress] 54% building 4/5 entries 1890/1900 dependencies 208/785 modules
-<s> [webpack.Progress] 54% building 4/5 entries 2949/2961 dependencies 700/895 modules
-<s> [webpack.Progress] 64% building 5/5 entries 3161/3161 dependencies 961/961 modules
+<s> [webpack.Progress] 32% building 2/5 entries 36/60 dependencies 7/35 modules
+<s> [webpack.Progress] 43% building 3/5 entries 132/184 dependencies 21/81 modules
+<s> [webpack.Progress] 49% building 4/5 entries 132/184 dependencies 23/81 modules
+<s> [webpack.Progress] 54% building 4/5 entries 300/351 dependencies 49/133 modules
+<s> [webpack.Progress] 54% building 4/5 entries 600/636 dependencies 121/287 modules
+<s> [webpack.Progress] 54% building 4/5 entries 1455/1600 dependencies 188/720 modules
+<s> [webpack.Progress] 54% building 4/5 entries 2576/2600 dependencies 273/850 modules
+<s> [webpack.Progress] 64% building 5/5 entries 3194/3194 dependencies 965/965 modules
 <s> [webpack.Progress] 65% building
 <s> [webpack.Progress] 69% building finish
 <s> [webpack.Progress] 69% building finish
@@ -535,75 +533,85 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing TerserPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.68b041fbd51b825dc4e4.css generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.68b041fbd51b825dc4e4.css generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.6634418d.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.6634418d.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.e4190afc.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.e4190afc.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin rtds-welcome-component-stories.8e646219.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin rtds-welcome-component-stories.8e646219.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-banner-banner-component-stories.7c60d93a.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-banner-banner-component-stories.7c60d93a.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-container-container-component-stories.e5108801.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-container-container-component-stories.e5108801.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-icon-icon-component-stories.473e6a5d.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-icon-icon-component-stories.473e6a5d.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-content-panel-content-component-stories.1f01c6ec.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-content-panel-content-component-stories.1f01c6ec.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-footer-panel-footer-component-stories.96eab863.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-footer-panel-footer-component-stories.96eab863.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-group-panel-group-component-stories.852a7bfa.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-group-panel-group-component-stories.852a7bfa.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-header-panel-header-component-stories.c58d7ec0.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-header-panel-header-component-stories.c58d7ec0.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-supplementary-panel-supplementary-component-stories.96ca9d5c.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-supplementary-panel-supplementary-component-stories.96ca9d5c.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-panel-component-stories.1265d02e.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-panel-component-stories.1265d02e.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin icon-gallery-stories-mdx.3b7fb690.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin icon-gallery-stories-mdx.3b7fb690.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin palette-stories-mdx.44a4623d.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin palette-stories-mdx.44a4623d.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin shadows-stories-mdx.5f86fb36.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin shadows-stories-mdx.5f86fb36.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin typography-stories-mdx.e2a90216.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin typography-stories-mdx.e2a90216.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 381.e69b8c58.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 381.e69b8c58.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 433.5daf8f8b.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 433.5daf8f8b.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 21.996a0928.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 21.996a0928.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 288.7b7b63dd.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 288.7b7b63dd.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 841.c6e1c6e3.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 841.c6e1c6e3.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 40.3eab68dd.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 40.3eab68dd.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 357.5acb7f39.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 357.5acb7f39.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 583.9eea9670.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 583.9eea9670.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 923.6b4e33b9.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 923.6b4e33b9.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 437.8739df3a.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 437.8739df3a.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 768.01d9bb59.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 768.01d9bb59.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 796.cff0bb18.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 796.cff0bb18.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 510.4e0799ae.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 510.4e0799ae.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.8daae45ae62675af701d.css generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.8daae45ae62675af701d.css generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.86caba7c.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.86caba7c.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.54991c18.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.54991c18.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin rtds-welcome-component-stories.b639c417.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin rtds-welcome-component-stories.b639c417.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-banner-banner-component-stories.e2114d00.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-banner-banner-component-stories.e2114d00.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-container-container-component-stories.0239dd0a.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-container-container-component-stories.0239dd0a.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-icon-icon-component-stories.e15769c8.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-icon-icon-component-stories.e15769c8.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-content-panel-content-component-stories.65ffe556.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-content-panel-content-component-stories.65ffe556.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-footer-panel-footer-component-stories.4baf84f1.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-footer-panel-footer-component-stories.4baf84f1.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-group-panel-group-component-stories.d61dc55c.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-group-panel-group-component-stories.d61dc55c.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-header-panel-header-component-stories.e82f1cd8.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-header-panel-header-component-stories.e82f1cd8.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-supplementary-panel-supplementary-component-stories.eda033e0.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-components-supplementary-panel-supplementary-component-stories.eda033e0.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-panel-component-stories.d93c106f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin src-lib-components-panel-panel-component-stories.d93c106f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin icon-gallery-stories-mdx.f797ccc1.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin icon-gallery-stories-mdx.f797ccc1.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin palette-stories-mdx.5a0a6317.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin palette-stories-mdx.5a0a6317.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin shadows-stories-mdx.39ecc054.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin shadows-stories-mdx.39ecc054.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin typography-stories-mdx.9b18d5fe.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin typography-stories-mdx.9b18d5fe.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 636.148d1f6c.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 636.148d1f6c.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 433.598a016e.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 433.598a016e.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 761.e10b557e.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 761.e10b557e.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 288.80ae241d.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 288.80ae241d.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 841.f945ddd5.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 841.f945ddd5.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 40.30af5098.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 40.30af5098.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 357.e834ba90.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 357.e834ba90.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 952.87f19f51.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 952.87f19f51.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 583.63a0062c.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 583.63a0062c.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 836.b3378cd6.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 836.b3378cd6.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 927.23acf2a9.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 927.23acf2a9.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 399.b0d497b4.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 399.b0d497b4.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 206.da8a5e2a.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 206.da8a5e2a.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 831.ea0588d9.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 831.ea0588d9.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 796.8e8b5415.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 796.8e8b5415.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 510.5c3ba459.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 510.5c3ba459.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 841.c6e1c6e3.iframe.bundle.js attach SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 841.c6e1c6e3.iframe.bundle.js attached SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 923.6b4e33b9.iframe.bundle.js attach SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 923.6b4e33b9.iframe.bundle.js attached SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 437.8739df3a.iframe.bundle.js attach SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 437.8739df3a.iframe.bundle.js attached SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 768.01d9bb59.iframe.bundle.js attach SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 768.01d9bb59.iframe.bundle.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 636.148d1f6c.iframe.bundle.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 636.148d1f6c.iframe.bundle.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 841.f945ddd5.iframe.bundle.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 841.f945ddd5.iframe.bundle.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 836.b3378cd6.iframe.bundle.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 836.b3378cd6.iframe.bundle.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 927.23acf2a9.iframe.bundle.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 927.23acf2a9.iframe.bundle.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 206.da8a5e2a.iframe.bundle.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 206.da8a5e2a.iframe.bundle.js attached SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 831.ea0588d9.iframe.bundle.js attach SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 831.ea0588d9.iframe.bundle.js attached SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
@@ -618,12 +626,12 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.30201ce726fa70cd21b0.css generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.30201ce726fa70cd21b0.css generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.626262d5.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.626262d5.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.4c97ce13.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.4c97ce13.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.b4528303c027e1038df6.css generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.b4528303c027e1038df6.css generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.a57b28dd.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.a57b28dd.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.260ae4fa.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.260ae4fa.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin rtds-welcome-component-stories.ca125af7.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin rtds-welcome-component-stories.ca125af7.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin src-lib-components-banner-banner-component-stories.7565b9b6.iframe.bundle.js generate SourceMap
@@ -644,30 +652,32 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin src-lib-components-panel-components-supplementary-panel-supplementary-component-stories.ccd8b285.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin src-lib-components-panel-panel-component-stories.8634afee.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin src-lib-components-panel-panel-component-stories.8634afee.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin palette-stories-mdx.9853672d.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin palette-stories-mdx.9853672d.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin shadows-stories-mdx.67d35c94.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin shadows-stories-mdx.67d35c94.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 381.eba35707.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 381.eba35707.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 21.edcf2816.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 21.edcf2816.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin icon-gallery-stories-mdx.de84a6e2.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin icon-gallery-stories-mdx.de84a6e2.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin palette-stories-mdx.dc8aed66.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin palette-stories-mdx.dc8aed66.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin shadows-stories-mdx.a95c8574.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin shadows-stories-mdx.a95c8574.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin typography-stories-mdx.6d330a0f.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin typography-stories-mdx.6d330a0f.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 761.cb637873.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 761.cb637873.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 288.d7aeda20.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 288.d7aeda20.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 40.371f70c9.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 40.371f70c9.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 357.40b509f6.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 357.40b509f6.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 952.ad74830b.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 952.ad74830b.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 399.9eeb72c7.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 399.9eeb72c7.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 796.f4319cdb.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 796.f4319cdb.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 510.ed7f416d.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 510.ed7f416d.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin icon-gallery-stories-mdx.a2b8b061.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin icon-gallery-stories-mdx.a2b8b061.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin typography-stories-mdx.1b099e60.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin typography-stories-mdx.1b099e60.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 433.18b50dad.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 433.18b50dad.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 510.6f8525ba.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 510.6f8525ba.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 433.2e6c9947.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 433.2e6c9947.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 583.333bc70e.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 583.333bc70e.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin resolve sources
@@ -701,49 +711,49 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 100% 
-WARN /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/app/app.component.ts is part of the TypeScript compilation but it's unused.
+WARN /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/app/app.component.ts is part of the TypeScript compilation but it's unused.
 WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/app/app.module.ts is part of the TypeScript compilation but it's unused.
+WARN /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/app/app.module.ts is part of the TypeScript compilation but it's unused.
 WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/environments/environment.prod.ts is part of the TypeScript compilation but it's unused.
+WARN /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/environments/environment.prod.ts is part of the TypeScript compilation but it's unused.
 WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/environments/environment.ts is part of the TypeScript compilation but it's unused.
+WARN /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/environments/environment.ts is part of the TypeScript compilation but it's unused.
 WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/main.ts is part of the TypeScript compilation but it's unused.
+WARN /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/main.ts is part of the TypeScript compilation but it's unused.
 WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/apps/storybook-app/src/test.ts is part of the TypeScript compilation but it's unused.
+WARN /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/apps/storybook-app/src/test.ts is part of the TypeScript compilation but it's unused.
 WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/cypress/support/commands.ts is part of the TypeScript compilation but it's unused.
+WARN /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/cypress/support/commands.ts is part of the TypeScript compilation but it's unused.
 WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/cypress/support/component.ts is part of the TypeScript compilation but it's unused.
+WARN /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/cypress/support/component.ts is part of the TypeScript compilation but it's unused.
 WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/index.ts is part of the TypeScript compilation but it's unused.
+WARN /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/index.ts is part of the TypeScript compilation but it's unused.
 WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/icon/index.ts is part of the TypeScript compilation but it's unused.
+WARN /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/icon/index.ts is part of the TypeScript compilation but it's unused.
 WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/libs/angular/src/lib/components/index.ts is part of the TypeScript compilation but it's unused.
+WARN /Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/libs/angular/src/lib/components/index.ts is part of the TypeScript compilation but it's unused.
 WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
 WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
 WARN This can impact web performance.
 WARN Assets: 
-WARN   design-tokens.source.json (498 KiB)
-WARN   433.18b50dad.iframe.bundle.js (791 KiB)
+WARN   design-tokens.source.json (248 KiB)
+WARN   433.2e6c9947.iframe.bundle.js (795 KiB)
 WARN   841.a44f707c.iframe.bundle.js (583 KiB)
-WARN   923.3b5f40f7.iframe.bundle.js (817 KiB)
-WARN   768.18d64e01.iframe.bundle.js (2.39 MiB)
+WARN   836.fdb0b4f3.iframe.bundle.js (689 KiB)
+WARN   831.32b8fd73.iframe.bundle.js (2.39 MiB)
 WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 WARN Entrypoints:
 WARN   main (2.64 MiB)
-WARN       runtime~main.4c97ce13.iframe.bundle.js
-WARN       768.18d64e01.iframe.bundle.js
-WARN       main.30201ce726fa70cd21b0.css
-WARN       main.626262d5.iframe.bundle.js
+WARN       runtime~main.260ae4fa.iframe.bundle.js
+WARN       831.32b8fd73.iframe.bundle.js
+WARN       main.b4528303c027e1038df6.css
+WARN       main.a57b28dd.iframe.bundle.js
 WARN 
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 100% 
-info => Preview built (30 s)
-info => Output directory: /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--44801-f8Ut3MSNaeXy
+info => Preview built (23 s)
+info => Output directory: /var/folders/xt/r3wj39x14w30wkszgmmw1nkc0000gq/T/chromatic--64670-ffoK5IAlMBNA
  
  [32m>[39m [0m[7m[1m[32m NX [39m[22m[27m[0m  [32mSuccessfully ran target storybook-build for project storybook-app[39m
 
