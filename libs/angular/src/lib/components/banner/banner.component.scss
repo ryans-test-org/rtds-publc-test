@@ -49,7 +49,7 @@
           //@include font(picanto);
           align-self: baseline;
           //font-size: pxtorem(14);
-          line-height: 24px;
+          line-height: 32px;
           flex-basis: 25%;
           margin-right: $grid-base-unit;
         }
@@ -77,7 +77,7 @@
   }
 
   &.is-global {
-    border-top: 4px solid;
+    border-top: 8px solid;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
