@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7575a03b-ef17-47bb-9aa3-cb9914c46bce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/chromatic.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/chromatic.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/storybook-app/documentation.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/storybook-app/documentation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-storybook.log" beforeDir="false" afterPath="$PROJECT_DIR$/build-storybook.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/angular/src/lib/components/banner/banner.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/libs/angular/src/lib/components/banner/banner.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass-map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass-map.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +164,7 @@
       <workItem from="1706816897195" duration="1810000" />
       <workItem from="1706820182555" duration="131000" />
       <workItem from="1706820333064" duration="979000" />
+      <workItem from="1707136057025" duration="588000" />
     </task>
     <task id="LOCAL-00001" summary="tt - update to use sass modules">
       <created>1664456216600</created>
@@ -409,14 +404,6 @@
       <option name="project" value="LOCAL" />
       <updated>1690480641685</updated>
     </task>
-    <task id="LOCAL-00139" summary="tt: updgrade mdx-js/react and prettier">
-      <option name="closed" value="true" />
-      <created>1698416956826</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1698416956826</updated>
-    </task>
     <task id="LOCAL-00140" summary="tt: force continute to test build">
       <option name="closed" value="true" />
       <created>1705270982878</created>
@@ -529,7 +516,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706820378025</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="tt: Update githooks">
+      <option name="closed" value="true" />
+      <created>1706951960134</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1706951960134</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
