@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7575a03b-ef17-47bb-9aa3-cb9914c46bce" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/cache.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cache.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/chromatic.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/chromatic.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/storybook-app/documentation.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/storybook-app/documentation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-storybook.log" beforeDir="false" afterPath="$PROJECT_DIR$/build-storybook.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/angular/src/lib/components/banner/banner.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/libs/angular/src/lib/components/banner/banner.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass-map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass-map.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/libs/styles/src/lib/sass/tokens/_tokens-sass.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="test-branch" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,28 +53,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Project.color&quot;: &quot;5b1c1e&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jsx.switch.disabled&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Ryan.Bendel/WebstormProjects/rtds-publc-test&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/node_modules/stylelint&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.TypeScript&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/Ryan.Bendel/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Project.color": "5b1c1e",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "cache",
+    "jsx.switch.disabled": "true",
+    "last_opened_file_path": "/Users/Ryan.Bendel/WebstormProjects/rtds-publc-test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/node_modules/stylelint",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.sourceCode.TypeScript",
+    "ts.external.directory.path": "/Users/Ryan.Bendel/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "two.files.diff.last.used.folder": "/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/libs/angular/src/lib/components/banner" />
@@ -170,6 +165,7 @@
       <workItem from="1706816897195" duration="1810000" />
       <workItem from="1706820182555" duration="131000" />
       <workItem from="1706820333064" duration="979000" />
+      <workItem from="1707136057025" duration="1189000" />
     </task>
     <task id="LOCAL-00001" summary="tt - update to use sass modules">
       <created>1664456216600</created>
@@ -409,22 +405,6 @@
       <option name="project" value="LOCAL" />
       <updated>1690480641685</updated>
     </task>
-    <task id="LOCAL-00139" summary="tt: updgrade mdx-js/react and prettier">
-      <option name="closed" value="true" />
-      <created>1698416956826</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1698416956826</updated>
-    </task>
-    <task id="LOCAL-00140" summary="tt: force continute to test build">
-      <option name="closed" value="true" />
-      <created>1705270982878</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1705270982878</updated>
-    </task>
     <task id="LOCAL-00141" summary="tt: temp disable scanning">
       <option name="closed" value="true" />
       <created>1705271662882</created>
@@ -529,7 +509,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706820378025</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="tt: Update githooks">
+      <option name="closed" value="true" />
+      <created>1706951960134</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1706951960134</updated>
+    </task>
+    <task id="LOCAL-00155" summary="tt: Add cache action">
+      <option name="closed" value="true" />
+      <created>1707207597030</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1707207597030</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,8 +630,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="tt: Upgrade and fix zone.js" />
-    <MESSAGE value="tt: Docker improvements" />
     <MESSAGE value="tt: Cypress - add type back into component.ts" />
     <MESSAGE value="tt: Revert docker changes" />
     <MESSAGE value="tt: Revert package upgrades till I figure out what's going on with webpack5. Re-apply docker improvements" />
@@ -659,6 +653,8 @@
     <MESSAGE value="tt: Update banner stories, default all icons to grey" />
     <MESSAGE value="tt: Update banner styling with temp line-heights" />
     <MESSAGE value="tt: Update githooks" />
-    <option name="LAST_COMMIT_MESSAGE" value="tt: Update githooks" />
+    <MESSAGE value="tt:" />
+    <MESSAGE value="tt: Add cache action" />
+    <option name="LAST_COMMIT_MESSAGE" value="tt: Add cache action" />
   </component>
 </project>
