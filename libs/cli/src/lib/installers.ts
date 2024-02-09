@@ -155,11 +155,7 @@ const createNpmRCFile = async () => {
 always-auth=true
 strict-ssl=false
 lockfile-version=2
-@retailer-tools:registry = https://autotrader.jfrog.io/autotrader/api/npm/NPM_GROUP/
-@rtds:registry=https://autotrader.jfrog.io/autotrader/api/npm/NPM_GROUP/
 node-options="--max_old_space_size=8192"
-registry=https://autotrader.jfrog.io/autotrader/api/npm/NPM_GROUP/
-//autotrader.jfrog.io/autotrader/api/npm/NPM_GROUP/:_auth=cnlhbi5iZW5kZWxAYXV0b3RyYWRlci5jby51azpjbVZtZEd0dU9qQXhPakUzTVRrMU9ERXlOakE2YmxWcWVITXpVSGhHTWtZMGMySXlPVVJRY0VWUWJHeEtPR1l4
 `
   await timedMessage(colors.yellow("Could not find .npmrc config file for this project, creating..."), 1000).then(async () =>
     await fs.writeFile(".npmrc", config, async (err) => {
@@ -170,7 +166,8 @@ registry=https://autotrader.jfrog.io/autotrader/api/npm/NPM_GROUP/
 };
 
 const modifyNpmRCFile = async () => {
-  const config = "@rtds:registry=https://autotrader.jfrog.io/autotrader/api/npm/NPM_GROUP/";
+  // TODO
+  const config = "";
   await timedMessage(colors.green("Looking for project .npmrc file..."), 1000).then(() =>
     fs.readFile(".npmrc", async (err, data) => {
       data.indexOf("@rtds:registry") === -1 ?

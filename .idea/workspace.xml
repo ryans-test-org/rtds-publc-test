@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7575a03b-ef17-47bb-9aa3-cb9914c46bce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/cache.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/cache.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/chromatic.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/chromatic.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-storybook.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helmfile/environments/preprod/values.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helmfile/environments/values.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helmfile/helmfile.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/cli/src/lib/installers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/cli/src/lib/installers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nx.json" beforeDir="false" afterPath="$PROJECT_DIR$/nx.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +66,7 @@
     "Project.color": "5b1c1e",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "cache",
+    "git-widget-placeholder": "main",
     "jsx.switch.disabled": "true",
     "last_opened_file_path": "/Users/Ryan.Bendel/WebstormProjects/rtds-publc-test",
     "node.js.detected.package.eslint": "true",
@@ -71,7 +78,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system/node_modules/prettier",
     "settings.editor.selected.configurable": "preferences.sourceCode.TypeScript",
-    "ts.external.directory.path": "/Users/Ryan.Bendel/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/Users/Ryan.Bendel/WebstormProjects/rtds-publc-test/node_modules/typescript/lib",
     "two.files.diff.last.used.folder": "/Users/Ryan.Bendel/WebstormProjects/retailer-tools-design-system"
   }
 }]]></component>

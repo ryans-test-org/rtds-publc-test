@@ -94,6 +94,5 @@
       "!{projectRoot}/cypress.config.[jt]s"
     ]
   },
-  "useDaemonProcess": false,
-  "nxCloudAccessToken": "YjNkOTg1NDEtOTkyMS00N2E2LTg5YzctZWQ1ZDczOTAyYTc0fHJlYWQtd3JpdGU="
+  "useDaemonProcess": false
 }
